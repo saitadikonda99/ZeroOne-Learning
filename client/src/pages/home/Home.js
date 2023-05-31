@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 
@@ -15,9 +16,32 @@ const Home = () => {
     <div className='HomeComponent'>
         <div className="HomeContainer">
           <div className="Home">
-            <div className="five">
-
+            <div className="Five">
+          <div className="Five-one">
+             <div className="Five-one-img">
+          </div>
+      </div>
+         <div className="Five-two">
+           <div className="Five-two-content">
+             <div className="Five-two-line"></div>
+               <div className="Five-two-matter">
+                 <span>Every Student</span>
+                 <span>Maters</span>
+              </div>
+                <div className="Five-two-para">
+                 <p>Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: 
+                    Newtonian mechanics 
+                    </p>
+              </div>
+                <div className="Five-two-link">
+                   <Link className="Five-two-link-child" >
+                      <h2>Learn More</h2>
+                   </Link>
+              </div>
             </div>
+          </div>
+        </div>
             <div className="seven">
               <div className="seven-in">
                 <div className="seven-head">

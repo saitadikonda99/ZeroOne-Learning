@@ -3,6 +3,64 @@
     margin: 0;
 }
 
+.Five {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(38, 51, 93);
+    height: 80vh;
+}
+
+.Five-one {
+    border: 2px solid salmon;
+    height: 50vh;
+    width: 40%;
+}
+
+.Five-two {
+    height: 50vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Five-two-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    width: 70%;
+}
+
+.Five-two-line {
+    background-color: salmon;
+    width: 25%;
+    height: .5vh;
+}
+
+.Five-two-matter span {
+    font-size: 80px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.Five-two-link-child {
+    color: salmon;
+    text-decoration: none;
+    display: flex;
+}
+
+.Five-two-link-child::after {
+    content: ">";
+    color: salmon;
+    font-size: 30px;
+    margin-top: -5px;
+    margin-left: 5px;
+  }
 
 
 
