@@ -10,7 +10,7 @@ const NavBar = () => {
             <div className="Nav">
               <div className="Nav-in">
                 <div className="logo">
-                  <h1>ZeroOne-Learning</h1>
+
                 </div>
                 <div className="index">
                   <div className="index-in">

@@ -1,10 +1,91 @@
-.HomeContainer {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.HomeContainer {
-    background-color: yellow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seven {
+    padding: 40px 0px;
+}
+.seven-head-in {
+    width: 80%;
+    margin: auto;
+}
+.seven-head-in p {
+    color: red;
+    padding: unset;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.seven-head-in h1 {
+    margin: 10px 0px 10px 0px;
+    font-size: 2.4vw;
+}
+.seven-head-in span {
+    display: block;
+    margin: 3px 0px;
+    font-weight: 500;
+    color: rgb(94, 92, 92);
+}
+
+
+.seven-child-in {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 0px 60px 0px;
+
+}
+
+.sci {
+    border: 2px solid white;
+    width: 22%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sci-img {
+    width: 100%;
+}
+.sci-img img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;   
+}
+.sci-des-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sci-des-in p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sci-des-icons {
+    padding: 10px 0px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
 }

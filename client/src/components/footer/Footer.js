@@ -63,8 +63,8 @@ const Footer = () => {
                         </div>
                         <div className="Fot-child">
                           <span><AiOutlinePhone/> +91 9087654321</span>
-                          <span><IoLocationSharp/>4517 Washington Ave. Manchester, Kentucky 39495</span>
-                          <span><IoMdMail/>debra.holt@example.com</span>
+                          <span><IoLocationSharp/> 4517 Washington Ave. Manchester, Kentucky 39495</span>
+                          <span><IoMdMail/> debra.holt@example.com</span>
                         </div>
                     </div>
                   </div>
