@@ -28,7 +28,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px 0px 25px 0px;
     border-radius: 4px;
-    border: 2px solid rgb(236, 20, 20);
+    border: 2px solid rgb(173, 171, 171);
     height: fit-content;
 }
 
@@ -76,8 +76,9 @@
 
 
 .tci-sub-desc p {
-    color: red;
+    color: black;
     width: 70%;
+    font-size: 1.4vw;
 }
 
 
