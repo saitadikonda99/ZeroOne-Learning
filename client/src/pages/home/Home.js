@@ -10,8 +10,12 @@ import { FaGraduationCap } from "react-icons/fa";
 import { GiBookCover } from "react-icons/gi";
 import { AiFillCode } from "react-icons/ai";
 import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
+import { AiFillStar } from "react-icons/ai";
+import { FaUserAlt } from "react-icons/fa";
+import { FaGreaterThan } from "react-icons/fa";
 
-import avatar from '../../assets/avatar.jpeg'
+import avatar from '../../assets/avatar.jpeg';
+import java from '../../assets/java.webp';
 
 
 
@@ -105,6 +109,138 @@ const Home = () => {
           </div>
 
 
+
+
+
+
+
+
+
+
+          <div className="four">
+            <div className="four-in">
+                <div className="seven-head">
+                   <div className="seven-head-in">
+                      <p>Practice Advice</p>
+                      <h1>Our Expert Teachers</h1>
+                      <span>Industry experienced tutors with real time experince</span>
+                      <span>Always aim to provide the best learning experience through best practices</span>
+                   </div>
+                </div>
+                <div className="four-child">
+                  <div className="four-child-in">
+                    <div className="fourci-sub">
+                      <div className="fourci-sub-in">
+                        <div className="fourci-img">
+                          <div className="fourci-img-in">
+                            <img src={java} alt="" />
+                          </div>
+                        </div>
+                        <div className="fourci-desc">
+                            <div className="fourci-desc-one">
+                              <p>Training Courses</p>
+                              <p><span>< AiFillStar/></span> 5</p>
+                            </div>
+                            <div className="fourci-desc-two">
+                              <p>Video in Live Action</p>
+                            </div>
+                            <div className="fourci-desc-three">
+                              <p>We focus on ergonomics and meeting you....</p>
+                            </div>
+                            <div className="fourci-desc-four">
+                              <FaUserAlt/> <p>150+ Learners</p>
+                            </div>
+                            <div className="four-desc-five">
+                              <p>Learn More <FaGreaterThan/></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="fourci-sub">
+                      <div className="fourci-sub-in">
+                        <div className="fourci-img">
+                          <div className="fourci-img-in">
+                            <img src={java} alt="" />
+                          </div>
+                        </div>
+                        <div className="fourci-desc">
+                            <div className="fourci-desc-one">
+                              <p>Training Courses</p>
+                              <p><span>< AiFillStar/></span> 5</p>
+                            </div>
+                            <div className="fourci-desc-two">
+                              <p>Video in Live Action</p>
+                            </div>
+                            <div className="fourci-desc-three">
+                              <p>We focus on ergonomics and meeting you....</p>
+                            </div>
+                            <div className="fourci-desc-four">
+                              <FaUserAlt/> <p>150+ Learners</p>
+                            </div>
+                            <div className="four-desc-five">
+                              <p>Learn More <FaGreaterThan/></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="fourci-sub">
+                      <div className="fourci-sub-in">
+                        <div className="fourci-img">
+                          <div className="fourci-img-in">
+                            <img src={java} alt="" />
+                          </div>
+                        </div>
+                        <div className="fourci-desc">
+                            <div className="fourci-desc-one">
+                              <p>Training Courses</p>
+                              <p><span>< AiFillStar/></span> 5</p>
+                            </div>
+                            <div className="fourci-desc-two">
+                              <p>Video in Live Action</p>
+                            </div>
+                            <div className="fourci-desc-three">
+                              <p>We focus on ergonomics and meeting you....</p>
+                            </div>
+                            <div className="fourci-desc-four">
+                              <FaUserAlt/> <p>150+ Learners</p>
+                            </div>
+                            <div className="four-desc-five">
+                              <p>Learn More <FaGreaterThan/></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="fourci-sub">
+                      <div className="fourci-sub-in">
+                        <div className="fourci-img">
+                          <div className="fourci-img-in">
+                            <img src={java} alt="" />
+                          </div>
+                        </div>
+                        <div className="fourci-desc">
+                            <div className="fourci-desc-one">
+                              <p>Training Courses</p>
+                              <p><span>< AiFillStar/></span> 5</p>
+                            </div>
+                            <div className="fourci-desc-two">
+                              <p>Video in Live Action</p>
+                            </div>
+                            <div className="fourci-desc-three">
+                              <p>We focus on ergonomics and meeting you....</p>
+                            </div>
+                            <div className="fourci-desc-four">
+                              <FaUserAlt/> <p>150+ Learners</p>
+                            </div>
+                            <div className="four-desc-five">
+                              <p>Learn More <FaGreaterThan/></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
 
 
 
