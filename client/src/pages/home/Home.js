@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 
+
+//import components here
+import NavBar from '../../components/navigation-bar/NavBar';
+import Footer from '../../components/footer/Footer';
+
+
+
 import { BsFacebook } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -25,6 +32,7 @@ import fiveImg from '../../assets/FiveImage.png';
 const Home = () => {
   return (
     <div className='HomeComponent'>
+      <NavBar/>
         <div className="HomeContainer">
           <div className="Home">
              
@@ -500,6 +508,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <Footer/>
         </div>
   )
 }

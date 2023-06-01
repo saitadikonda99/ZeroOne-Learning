@@ -18,7 +18,7 @@ const NavBar = () => {
                         <Link className='index-link'>
                           <li>Home</li>
                         </Link>
-                        <Link className='index-link'>
+                        <Link to='/courses' className='index-link'>
                           <li>courses</li>
                         </Link>
                         <Link className='index-link'>
