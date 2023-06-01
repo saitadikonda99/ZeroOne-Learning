@@ -4,23 +4,21 @@ import {Routes, Route } from 'react-router-dom';
 
 
 //import components here
-import CourseNav from './course_components/course_nav/CourseNav';
-import CourseFooter from './course_components/course_footer/CourseFooter';
 
 
+import CprogrammingApp from './c-programming-module/CprogrammingApp';
+import CourseHome from './course_pages/course_home/CourseHome';
 
 const CourseApp = () => {
   return (
     <div className='CourseAppComponent'>
         <div className="CourseAppContainer">
-            <CourseNav />
             <div className="CourseAppMain">
-              <h1><h1>Course App file</h1></h1>
                 <Routes>
-
+                    <Route path='/' element={<CourseHome/>}></Route>
+                    <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
                 </Routes>
             </div>
-            <CourseFooter />
         </div>
     </div>
   )
