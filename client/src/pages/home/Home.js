@@ -21,12 +21,13 @@ import fiveImg from '../../assets/FiveImage.png';
 
 
 
+
 const Home = () => {
   return (
     <div className='HomeComponent'>
         <div className="HomeContainer">
           <div className="Home">
-
+             
 
 
 
