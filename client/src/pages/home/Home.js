@@ -16,6 +16,8 @@ import { FaGreaterThan } from "react-icons/fa";
 
 import avatar from '../../assets/avatar.jpeg';
 import java from '../../assets/java.webp';
+import twoImage from '../../assets/twoImage.png';
+import fiveImg from '../../assets/FiveImage.png';
 
 
 
@@ -33,6 +35,62 @@ const Home = () => {
 
 
 
+          <div className="Two">
+              <div className="Two-head">
+                <div className="Two-head-matter">
+                 <h3>Practice Advice</h3>
+                 <span>Get Quality Education</span>
+              </div>
+                <div className="Two-head-para">
+                 <p>Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: 
+                    Newtonian mechanics 
+                 </p>
+              </div>
+                </div>
+                  <div className="Two-child">
+                    <div>
+                      <img className="Two-child-img" src={twoImage} alt="twoImage" />
+                  </div>
+                    <div className="Two-child-content">
+                      <div className="Two-child-head">
+                          <h2>Most trusted in our field</h2>
+                          <p>Most calendars are designed for teams. Slate s designed 
+                             for freelancers </p>
+                      </div>
+                        <div className="Two-child-head-one child-child">
+                         <div className="head-one-one">
+                          <h3>01</h3>
+                      </div> 
+                          <div className="head-one-two">
+                               <h3>Training Courses</h3>
+                               <p>Things on a very small that you 
+                                   have any direct</p>
+                          </div>
+                        </div>
+                          <div className="Two-child-head-two child-child">
+                           <div className="head-one-one">
+                              <h3>02</h3>
+                      </div> 
+                          <div className="head-one-two">
+                                <h3>Expert instruction</h3>
+                                <p>Things on a verysmall that you 
+                                   have any direct</p>
+                          </div>
+                         </div>
+                            <div className="Two-child-head-three child-child">
+                              <div className="head-one-one">
+                               <h3>03</h3>
+                         </div> 
+                            <div className="head-one-two">
+                                <h3>Training Courses</h3>
+                                <p>Things on a very small that you 
+                                   have any direct</p>
+                          </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
 
 
           <div className="three">
@@ -251,11 +309,12 @@ const Home = () => {
 
 
 
-            <div className="Five">
+          <div className="Five">
           <div className="Five-one">
-             <div className="Five-one-img">
+             <div >
+              <img className="Five-one-img" src={fiveImg} alt="fiveImg" />
           </div>
-        </div>
+      </div>
          <div className="Five-two">
            <div className="Five-two-content">
              <div className="Five-two-line"></div>
@@ -270,16 +329,64 @@ const Home = () => {
                     </p>
               </div>
                 <div className="Five-two-link">
-                   <Link className="Five-two-link-child" >
+                   <Link className="Five-two-link-child" to='/LearnMore' >
                       <h2>Learn More</h2>
                    </Link>
               </div>
             </div>
           </div>
+        </div>
 
+        
 
-
-
+        <div className="Six">
+              <div className="Six-head">
+                <div className="Six-head-matter">
+                 <h3>Practice Advice</h3>
+                 <span>Get Quality Education</span>
+              </div>
+                <div className="Six-head-para">
+                 <p>Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: 
+                    Newtonian mechanics 
+                 </p>
+              </div>
+                </div>
+                  <div className="Six-child">
+                    <div className="Six-child-one">
+                      <div>
+                      <img className="six-child-img" src={avatar} alt="avatar" />
+                      </div>
+                        <div className="six-child-one-one">
+                          <p>Slate helps you see how many more days 
+                             you need to work to reach your financial 
+                             goal for the month and year.</p>
+                        </div>
+                          <div className="six-child-two-two">
+                            <h4>Regina Miles</h4>
+                          </div>
+                            <div className="six-child-three-three">
+                              <h4>Designer</h4>
+                            </div>
+                      </div>
+                         <div className="Six-child-two">
+                             <div>
+                              <img className="six-child-img" src={avatar} alt="avatar" />
+                                </div>
+                              <div className="six-child-one-one">
+                                  <p>Slate helps you see how many more days 
+                                  you need to work to reach your financial 
+                                  goal for the month and year.</p>
+                        </div>
+                              <div className="six-child-two-two">
+                                 <h4>Regina Miles</h4>
+                            </div>
+                                <div className="six-child-three-three">
+                                <h4>Designer</h4>
+                      </div> 
+                    </div>
+           </div>
+        </div>
 
 
 
@@ -378,7 +485,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-    </div>
   )
 }
 

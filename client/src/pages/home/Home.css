@@ -3,6 +3,86 @@
     margin: 0;
 }
 
+.Two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    gap: 120px;
+}
+
+.Two-head {
+    height: 30vh;
+    width: 100%;
+}
+
+.Two-child {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.Two-head-matter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5% 8%;
+}
+
+.Two-head-matter h3 {
+    font-size: 20px;
+    color:orangered;
+}
+
+.Two-head-matter span {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(38, 51, 93);
+}
+
+.Two-head-para {
+    width: 30%;
+    margin: -3% 8%;
+}   
+
+.Two-child-img {
+    height: 70vh;
+}
+
+.Two-child-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    gap: 70px;
+}
+
+.child-child {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+}
+
+.head-one-one {
+    border-radius: 50%;
+    padding: 14px 14px;
+    background-color: rgb(225, 222, 222);
+    color: orangered;
+}
+
+.head-one-two p {
+    color: gray;
+    margin-top: 10px;
+}
+
+.Two-child-head p {
+    color: gray;
+    margin-top: 4%;
+}
 
 
 
@@ -194,17 +274,17 @@
 
 .Five {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(38, 51, 93, 1);
-    height: 80vh;
+    background-color: rgb(38, 51, 93);
+    height: 100vh;
 }
 
-.Five-one {
-    border: 2px solid salmon;
-    height: 50vh;
-    width: 40%;
+.Five-one-img {
+    height: 60vh;
 }
+
+
 
 .Five-two {
     height: 50vh;
@@ -225,7 +305,7 @@
 }
 
 .Five-two-line {
-    background-color: salmon;
+    background-color: orangered;
     width: 25%;
     height: .5vh;
 }
@@ -238,18 +318,100 @@
 }
 
 .Five-two-link-child {
-    color: salmon;
+    color: orangered;
     text-decoration: none;
     display: flex;
 }
 
 .Five-two-link-child::after {
     content: ">";
-    color: salmon;
+    color: orangered;
     font-size: 30px;
     margin-top: -5px;
     margin-left: 5px;
+  }
+
+  .Six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    gap: 50px;
 }
+
+.Six-head {
+    height: 30vh;
+    width: 100%;
+}
+
+.Six-head-matter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5% 8%;
+}
+
+.Six-head-matter h3 {
+    font-size: 20px;
+    color:orangered;
+}
+
+.Six-head-matter span {
+    font-size: 40px;
+}
+
+.Six-head-para {
+    width: 30%;
+    margin: -3% 8%;
+}   
+
+.Six-child {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.Six-child-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Six-child-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.six-child-img {
+    height: 25vh;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 194, 198);
+}
+
+.six-child-one-one {
+    height: 10vh;
+    width: 60%;
+}
+
+.six-child-two-two {
+    text-align: center;
+    font-size: 20px;
+}
+
+.six-child-three-three {
+    text-align: center;
+    color: gray;
+}
+
 
 
 .seven {
