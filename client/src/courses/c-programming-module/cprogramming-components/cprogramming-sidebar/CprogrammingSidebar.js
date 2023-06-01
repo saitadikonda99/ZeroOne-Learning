@@ -9,7 +9,7 @@ const routes = [
     name: 'Course Outcome 1',
     content: ['Structured Programming Paradigm', 'Designing Algorithms', 'Designing Flowcharts', 'Primary Data Types', 'Derived Data Types', 'Basic Operators', 'Modularization', 'Storage Classes', 'User input from console', 'User input from files', 'Conditional Statements', 'Nesting of Conditional Statements'],
 
-    paths: ['/courses/c-programming/co1/structured-programming-paradigm', '/courses/c-programming/co1/designing-algorithms', '/courses/c-programming/co1/designing-flowcharts', '/courses/c-programming/co1/primary-data-types', '/courses/c-programming/co1/derived-data-types', '/c-programming/co1/5', '/c-programming/co1/6', '/c-programming/co1/7', '/c-programming/co1/8', '/c-programming/co1/9', '/c-programming/co1/10', '/c-programming/co1/11']
+    paths: ['/courses/c-programming/co1/', '/courses/c-programming/co1/designing-algorithms', '/courses/c-programming/co1/designing-flowcharts', '/courses/c-programming/co1/primary-data-types', '/courses/c-programming/co1/derived-data-types', '/c-programming/co1/5', '/c-programming/co1/6', '/c-programming/co1/7', '/c-programming/co1/8', '/c-programming/co1/9', '/c-programming/co1/10', '/c-programming/co1/11']
   },
   {
     name: 'Course Outcome 2',
