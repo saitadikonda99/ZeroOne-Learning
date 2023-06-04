@@ -15,7 +15,6 @@ const Page = () => {
       setCopiedIndex(-1);
   }
   
-
   const [copiedIndex, setCopiedIndex] = useState(-1);
 
   const copyCode = (index) => {
@@ -31,7 +30,7 @@ const Page = () => {
 
      return (
                 <div className="co1-Topic-one">
-                  <div className="ct1-cosidebar">
+                  <div className="co-sidebar">
                     <CprogrammingSidebar />
                   </div>
                   <div className="topic-content">

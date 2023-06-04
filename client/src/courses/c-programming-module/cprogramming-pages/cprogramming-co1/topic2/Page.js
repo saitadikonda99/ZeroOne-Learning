@@ -1,10 +1,14 @@
 import React from 'react'
 
+
+// imports Here
+import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
+
 function Page() {
   return (
-    <div> 
-       <h1>  designing-algorithms </h1> 
-       </div>
+    <div className="co-sidebar">
+                    <CprogrammingSidebar />
+                  </div>
   )
 }
 
