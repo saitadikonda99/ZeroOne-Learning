@@ -10,7 +10,6 @@ import { LuCopyCheck } from "react-icons/lu";
 import { codeArr } from './Codes';
 
 const Page = () => {
-
   const handleCp = () => {
       setCopiedIndex(-1);
   }
