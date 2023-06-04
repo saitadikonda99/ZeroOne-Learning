@@ -19,12 +19,14 @@
 .topic-content {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
+    border: .1px solid blue;
     width: 65%;
     height: fit-content;
     margin-left: auto;
     padding: 5vw;
     gap: 5vw;
+    box-shadow: rgba(17, 44, 218, 0.24) 0px 3px 30px;
+    border-radius: 10px;
 }
 
 .topic-content-head {
