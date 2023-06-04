@@ -11,8 +11,6 @@ import { codeArr } from './Codes';
 
 const Page = () => {
 
-
-
   const handleCp = () => {
       setCopiedIndex(-1);
   }
