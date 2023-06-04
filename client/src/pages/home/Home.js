@@ -103,10 +103,10 @@ const Home = () => {
                           <div className="Two-child-head-two child-child">
                            <div className="head-one-one">
                               <h3>02</h3>
-                      </div> 
+                         </div> 
                           <div className="head-one-two">
                                 <h3>Expert instruction</h3>
-                                <p>Things on a verysmall that you 
+                                <p>Things on a very small that you 
                                    have any direct</p>
                           </div>
                          </div>
