@@ -68,7 +68,7 @@ const CprogrammingApp = () => {
 
     // CO2 - Arrays and Pointers
     { name: 'Increment-decrement-operators', path: 'co2/Increment-decrement-operators', component: Co2topic1page },
-    { name: 'Increment-decrement-operators', path: 'co2/Increment-decrement-operators', component: Co2topic2page },
+    { name: 'Iterative-Statements', path: 'co2/Iterative-Statements', component: Co2topic2page },
     { name: 'Loops', path: 'co2/Loops', component: Co2topic3page },
     { name: 'Nested-Loops', path: 'co2/Nested-Loops', component: Co2topic4page },
     { name: 'Bitwise-Operators-I', path: 'co2/Bitwise-Operators-I', component: Co2topic5page },
