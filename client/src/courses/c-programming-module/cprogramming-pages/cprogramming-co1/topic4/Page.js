@@ -149,6 +149,13 @@ const copyCode = (index) => {
                           {copiedIndex === 5 ?  <LuCopyCheck/> : <TbCopy/> }
                       </button>
                 </div>      
+            <p>These are some of the primary data types 
+               commonly found in programming languages. 
+               Some languages may provide additional data 
+               types or variations of these types. It's important 
+               to note that the specific names and characteristics of these 
+               data types may vary slightly across different programming languages.
+            </p>
           </div>
       </div>
   </div>
