@@ -1,10 +1,11 @@
- import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 // import Here
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
 import './Page.css';
+import '../common-css/index.css'
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
 import { codeArr } from './Codes';
@@ -28,12 +29,12 @@ const Page = () => {
   };
 
      return (
-                <div className="co1-topic-one">
+                <div className="topic-container">
                   <div className="co-sidebar">
                     <CprogrammingSidebar />
                   </div>
-                  <div className="c1t1-content">
-                    <div className="c1t1-content-head">
+                  <div className="topic-content">
+                    <div className="topic-content-head">
                       <h1>Structured-Programming-Paradigm</h1>
                       <p>
                         In this page you will learn about Structured-Programming-Paradigm
@@ -61,7 +62,7 @@ const Page = () => {
                         avoiding spaghetti code and makes debugging and maintenance easier.
                       </p>
                       <h3>Example : </h3>
-                      <div className="code-container">
+                      <div className="c1t1-code-container">
                         <SyntaxHighlighter language="java" style={dracula}>
                           {codeArr[0].code}
                         </SyntaxHighlighter>
