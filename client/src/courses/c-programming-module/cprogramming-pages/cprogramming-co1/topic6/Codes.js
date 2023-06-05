@@ -30,25 +30,38 @@ printf("%d\\n", x); // Output: 6`
 
     {
         code : `int x = 5;
+int result = x++;
+printf("%d\\n", result); // Output: 5
+printf("%d\\n", x); // Output: 6`
+    },
+
+    {
+        code : `int x = 5;
 int result = --x;
 printf("%d\\n", result); // Output: 4
 printf("%d\\n", x); // Output: 4`
     },
 
     {
+        code : `int x = 5;
+int result = x--;
+printf("%d\\n", result); // Output: 5
+printf("%d\\n", x); // Output: 4`
+    },
+
+    {
       code: `#include <stdio.h>
   
-  int main() {
-      int x = 5;
-      x += 3;
-      x -= 2;
-      x *= 4;
-      x /= 2;
-      x %= 3;
-  
-      printf("x: %d\\n", x);
-  
-      return 0;
+    int main() {
+        int x = 5;
+        x += 3;  // x = x + 3; // x = 5 + 3 = 8
+        x -= 2;  // x = x - 2; // x = 8 - 2 = 6
+        x *= 4;  // x = x * 4; // x = 6 * 4 = 24
+        x /= 2;  // x = x / 2; // x = 24 / 2 = 12
+        x %= 3;  // x = x % 3; // x = 12 % 3 = 0
+    
+        printf("x: %d\\n", x);  // Output: x: 0
+    
   }`
     },
     {
