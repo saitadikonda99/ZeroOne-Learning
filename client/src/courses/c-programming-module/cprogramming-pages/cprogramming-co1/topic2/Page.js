@@ -45,7 +45,7 @@ const copyCode = (index) => {
                    in detail
                 </p>
             </div>
-            <div className="c1t2-intro">
+            <div className="c1t-common-intro">
                       <p>
                       Designing algorithms is a fundamental skill for
                       every aspiring programmer. An algorithm is a 
@@ -60,7 +60,7 @@ const copyCode = (index) => {
                </div>
 
                             {/* first one */}
-                   <div className="c1t2-content-one">
+                   <div className="c1t-common-container">
                       <h1>1.Problem Analysis:</h1>
                       <p>
                       To analyze the problem of adding two numbers,
@@ -80,7 +80,8 @@ const copyCode = (index) => {
                       <p> <b>Step 3 :</b> Store the calculated sum in a variable, let's call it <b>sum. </b></p>
                       <p> <b>Step 4 :</b> Display the value of <b>sum</b> as the output. </p>
                       <p> <b>To summarize, here is a clear and concise algorithm for adding two numbers:</b> </p>
-                      <div className="code-container">
+                  </div>
+                       <div className="code-common-container">
                         <SyntaxHighlighter language="python" style={dracula}>
                           {codeArr[0].code}
                         </SyntaxHighlighter>
@@ -91,6 +92,7 @@ const copyCode = (index) => {
                         {copiedIndex === 0 ?  <LuCopyCheck/> : <TbCopy/> }
                         </button>
                   </div>
+                  <div className="c1t-common-container"> 
                     <p>This algorithm follows a straightforward approach, allowing us to obtain the sum of two numbers accurately. 
                       It can be implemented in any programming language by taking user input, performing the addition operation, 
                       and displaying the result.
@@ -99,7 +101,7 @@ const copyCode = (index) => {
                     <p>In this problem analysis, we have defined the input, output, and algorithm for adding two numbers. By following this algorithm, you can easily perform the addition operation and obtain the desired sum. Understanding the problem requirements and
                       designing a clear algorithm is a crucial step in solving programming problems effectively.
                     </p>
-              </div>
+             </div>
           </div>
       </div>
   )
