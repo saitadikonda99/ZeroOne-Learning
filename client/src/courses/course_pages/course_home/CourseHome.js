@@ -12,7 +12,7 @@ const CourseHome = () => {
         <CourseNav/>
         <div className="CourseHomeContainer">
             <h1>Course Home goes here</h1>
-            <p>List of courses avalaible:</p>
+            <p>List of courses available:</p>
             <Link to='/courses/c-programming'>C-programming</Link>
         </div>
         <CourseFooter/>

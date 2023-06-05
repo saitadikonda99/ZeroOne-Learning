@@ -47,6 +47,7 @@ import Co4topic7page from '../c-programming-module/cprogramming-pages/cprogrammi
 import Co4topic8page from '../c-programming-module/cprogramming-pages/cprogramming-co4/topic8/Page';
 import Co4topic9page from '../c-programming-module/cprogramming-pages/cprogramming-co4/topic9/Page';
 import Co4topic10page from '../c-programming-module/cprogramming-pages/cprogramming-co4/topic10/Page';
+import Co4topic11page from '../c-programming-module/cprogramming-pages/cprogramming-co4/topic11/Page';
 
 const CprogrammingApp = () => {
   const topics = [
@@ -99,7 +100,7 @@ const CprogrammingApp = () => {
     { name: 'Integration Testing', path: 'co4/Queues-with-Arrays', component: Co4topic8page },
     { name: 'Software Security', path: 'co4/Single-Linked-List', component: Co4topic9page },
     { name: 'Cryptography', path: 'co4/Delete-Operation-on-Linked-List', component: Co4topic10page },
-    { name: 'Cryptography', path: 'co4/Non-linear-Data-Structures', component: Co4topic10page },
+    { name: 'Cryptography', path: 'co4/Non-linear-Data-Structures', component: Co4topic11page },
   ];
 
   return (
