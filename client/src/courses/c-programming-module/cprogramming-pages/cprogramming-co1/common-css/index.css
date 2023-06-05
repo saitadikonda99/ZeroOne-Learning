@@ -7,7 +7,8 @@
 .topic-container h1, h3{
     color: rgba(0, 0, 139, 0.957);
 }
- 
+
+
 .co-sidebar {
     position: fixed;
     top: 50%; 
@@ -38,12 +39,11 @@
     padding: 50px;
 }
 
-
-.code-container {
+.code-common-container {
     position: relative;
  }
  
-.code-container button {
+.code-common-container button {
      position: absolute;
      top: 1rem;
      right: 0;
@@ -54,3 +54,8 @@
      font-size: 20px;
  }
  
+ .c1t-common-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

@@ -43,7 +43,7 @@ const copyCode = (index) => {
                    in detail
                 </p>
             </div>
-            <div className="c1t4-intro">
+            <div className="c1t-common-intro">
                   <p>
                   Derived data types, also known as composite 
                   data types, are data types that are built 
@@ -54,7 +54,7 @@ const copyCode = (index) => {
                   </p>
              </div>
                                {/* code one */}
-          <div className="c1t1-content-one">
+          <div className="c1t-common-container">
             <p>
            <b> Arrays: </b>  Arrays are derived data types that 
             allow you to store a collection of elements 
@@ -64,7 +64,7 @@ const copyCode = (index) => {
             </p>
               <h3>dataType: Array</h3>
 
-                <div className="code-container">
+                <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[0].code}
                     </SyntaxHighlighter>
@@ -82,7 +82,7 @@ const copyCode = (index) => {
                   data type. Structures provide a way to represent complex data structures with related attributes. 
               </p>
               <h3>datatype: Structures</h3>
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[1].code}
                     </SyntaxHighlighter>
@@ -105,7 +105,7 @@ const copyCode = (index) => {
                structures.
             </p>   
                 <h3>dataType: Pointer</h3>     
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[2].code}
                     </SyntaxHighlighter>

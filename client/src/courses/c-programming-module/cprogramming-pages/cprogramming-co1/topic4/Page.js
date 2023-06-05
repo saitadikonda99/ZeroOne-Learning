@@ -42,7 +42,7 @@ const copyCode = (index) => {
                    in detail
                 </p>
             </div>
-            <div className="c1t4-intro">
+            <div className="c1t-intro">
                   <p>
                   In programming, primary data types, also known 
                   as primitive data types, are the basic building 
@@ -54,12 +54,12 @@ const copyCode = (index) => {
                   </p>
              </div>
                                {/* code one */}
-          <div className="c1t1-content-one">
+          <div className="c1t-common-container">
             <p>1.Integer <b>(int):</b> Represents whole numbers without any fractional or decimal parts.</p>
               <h3> For example :</h3>
 
                        
-                <div className="code-container">
+                <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[0].code}
                     </SyntaxHighlighter>
@@ -74,7 +74,7 @@ const copyCode = (index) => {
                           {/* code two */}
               <p>2.Floating-point <b>(float or double):</b>  Represents numbers with fractional parts. These types are used to store real numbers.</p>   
                 <h3> For example :</h3>     
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[1].code}
                     </SyntaxHighlighter>
@@ -91,7 +91,7 @@ const copyCode = (index) => {
 
             <p>3. Character <b> (char): </b>  Represents a single character, such as a letter, digit, or special symbol.</p>   
                 <h3> For example :</h3>     
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[2].code}
                     </SyntaxHighlighter>
@@ -107,7 +107,7 @@ const copyCode = (index) => {
                         {/* code four */}
               <p>4. Boolean <b>(bool):</b>  Represents a logical value that can be either true or false. It is often used in conditional statements or logical operations.</p>
                 <h3> For example :</h3>     
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[3].code}
                     </SyntaxHighlighter>
@@ -123,7 +123,7 @@ const copyCode = (index) => {
 
             <p>5.String: Represents a sequence of characters. It is used to store textual data, such as names, sentences, or even whole documents. Strings are typically represented using double quotes.</p>   
                 <h3> For example :</h3>     
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[4].code}
                     </SyntaxHighlighter>
@@ -138,7 +138,7 @@ const copyCode = (index) => {
 
             <p>6.Array: Represents a collection of elements of the same data type. Arrays allow you to store multiple values under a single variable name.</p>   
                 <h3> For example :</h3>     
-                 <div className="code-container">
+                 <div className="code-common-container">
                    <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[5].code}
                     </SyntaxHighlighter>

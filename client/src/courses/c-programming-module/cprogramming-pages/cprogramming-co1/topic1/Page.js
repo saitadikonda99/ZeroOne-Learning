@@ -43,7 +43,7 @@ const Page = () => {
                         in detail
                       </p>
                     </div>
-                    <div className="c1t1-intro">
+                    <div className="c1t-common-intro">
                       <p>
                         The structured programming paradigm emphasizes the use of
                         structured control flow constructs, such as if...else statements,
@@ -55,7 +55,7 @@ const Page = () => {
                     </div>
 
                                             {/* first one */}
-                    <div className="c1t1-content-one">
+                    <div className="c1t-common-container">
                       <h1>1. Single Entry, Single Exit (SESE):</h1>
                       <p>
                         Single Entry, Single Exit (SESE): Each block of code should have
@@ -64,7 +64,7 @@ const Page = () => {
                         avoiding spaghetti code and makes debugging and maintenance easier.
                       </p>
                       <h3>Example : </h3>
-                      <div className="code-container">
+                      <div className="code-common-container">
                         <SyntaxHighlighter language="java" style={dracula}>
                           {codeArr[0].code}
                         </SyntaxHighlighter>
@@ -77,7 +77,7 @@ const Page = () => {
                       </div>
                     </div>
                                       {/* second one */}
-                  <div className="c1t1-content-one">
+                  <div className="c1t-common-container">
                       <h1>2.Top-Down Design:</h1>
                           <p>
                           Break down the problem into smaller, manageable modules 
@@ -86,7 +86,7 @@ const Page = () => {
                           further decomposed until the solution is simple enough to implement.
                           </p>
                       <h3>Example : </h3>
-                      <div className="code-container">
+                      <div className="code-common-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[1].code}
                           </SyntaxHighlighter>
@@ -100,7 +100,7 @@ const Page = () => {
                     </div>
 
                             {/* three one */}
-                  <div className="c1t1-content-one">
+                  <div className="c1t-common-container">
                       <h1>3.Stepwise Refinement:</h1>
                           <p>
                           Refine the solution step by step, starting with a high-level
@@ -109,7 +109,7 @@ const Page = () => {
                            making it easier to verify and debug the code.
                           </p>
                       <h3>Example : </h3>
-                      <div className="code-container">
+                      <div className="code-common-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[2].code}
                           </SyntaxHighlighter>
@@ -123,7 +123,7 @@ const Page = () => {
                     </div>
 
                     {/* four one */}
-                  <div className="c1t1-content-one">
+                  <div className="c1t-common-container">
                       <h1>4.Use of Control Structures:</h1>
                           <p>
                           Utilize control structures such as if...else statements,
@@ -132,7 +132,7 @@ const Page = () => {
                           in making decisions, iterating over data, and handling different cases effectively.
                           </p>
                       <h3>Example : </h3>
-                      <div className="code-container">
+                      <div className="code-common-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[3].code}
                           </SyntaxHighlighter>
@@ -147,7 +147,7 @@ const Page = () => {
 
 
                        {/* five one */}
-                  <div className="c1t1-content-one">
+                  <div className="c1t-common-container">
                       <h1>5.Modularization:</h1>
                           <p>
                           Divide the program into modules or functions, each 
@@ -157,7 +157,7 @@ const Page = () => {
                             interact with other modules.
                           </p>
                       <h3>Example : </h3>
-                      <div className="code-container">
+                      <div className="code-common-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[1].code}
                           </SyntaxHighlighter>
@@ -169,10 +169,8 @@ const Page = () => {
                           </button>
                       </div>
                     </div>
-
-
                   </div>
-                </div>
+              </div>
   );
 };
 
