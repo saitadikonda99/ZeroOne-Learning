@@ -10,10 +10,8 @@ import '../common-css/index.css'
 import { codeArr } from './Codes';
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
-import { NavLink } from 'react-router-dom';
 
 function Page() {
-
   const handleCp = () => {
     setCopiedIndex(-1);
 }
@@ -34,6 +32,8 @@ const copyCode = (index) => {
   return (
         <div className="topic-container">
           <div className="co-sidebar">
+            <div className="sample">
+            </div>
              <CprogrammingSidebar />
           </div>  
            <div className="topic-content">
