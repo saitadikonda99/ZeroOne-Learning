@@ -7,19 +7,4 @@
     flex-direction: column;
     gap: 2vw;
 }
-
-.c1t1-code-container {
-   position: relative;
-}
-
-.c1t1-code-container button {
-    position: absolute;
-    top: 1rem;
-    right: 0;
-    background-color: rgb(40, 42, 54);
-    color: white;
-    padding: 10px;
-    border: none;
-    font-size: 20px;
-}
-
+ 

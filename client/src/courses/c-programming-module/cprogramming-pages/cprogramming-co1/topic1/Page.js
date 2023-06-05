@@ -62,7 +62,7 @@ const Page = () => {
                         avoiding spaghetti code and makes debugging and maintenance easier.
                       </p>
                       <h3>Example : </h3>
-                      <div className="c1t1-code-container">
+                      <div className="code-container">
                         <SyntaxHighlighter language="java" style={dracula}>
                           {codeArr[0].code}
                         </SyntaxHighlighter>
@@ -84,7 +84,7 @@ const Page = () => {
                           further decomposed until the solution is simple enough to implement.
                           </p>
                       <h3>Example : </h3>
-                      <div className="c1t1-code-container">
+                      <div className="code-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[1].code}
                           </SyntaxHighlighter>
@@ -107,7 +107,7 @@ const Page = () => {
                            making it easier to verify and debug the code.
                           </p>
                       <h3>Example : </h3>
-                      <div className="c1t1-code-container">
+                      <div className="code-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[2].code}
                           </SyntaxHighlighter>
@@ -130,7 +130,7 @@ const Page = () => {
                           in making decisions, iterating over data, and handling different cases effectively.
                           </p>
                       <h3>Example : </h3>
-                      <div className="c1t1-code-container">
+                      <div className="code-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[3].code}
                           </SyntaxHighlighter>
@@ -155,7 +155,7 @@ const Page = () => {
                             interact with other modules.
                           </p>
                       <h3>Example : </h3>
-                      <div className="c1t1-code-container">
+                      <div className="code-container">
                           <SyntaxHighlighter language="java" style={dracula}>
                             {codeArr[1].code}
                           </SyntaxHighlighter>
