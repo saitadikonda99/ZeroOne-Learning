@@ -14,8 +14,8 @@ function Page() {
           </div>  
            <div className="topic-content">
             <div className="topic-content-head">
-                <h1>Increment, decrement operators</h1>
-                <p>In this page you will learn about Increment, decrement operators
+                <h1>Increment | decrement operators</h1>
+                <p>In this page you will learn about Increment | decrement operators
                    in detail
                 </p>
             </div>
