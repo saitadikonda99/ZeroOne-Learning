@@ -3,10 +3,12 @@ import SyntaxHighlighter from 'react-syntax-highlighter/dist/esm/default-highlig
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 
-// imports Here
+// imports files here 
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
 import './Page.css'
 import '../common-css/index.css'
+
+// import react icons here 
 import { codeArr } from './Codes';
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
@@ -19,14 +21,14 @@ function Page() {
 const [copiedIndex, setCopiedIndex] = useState(-1);
 
 const copyCode = (index) => {
-  const textarea = document.createElement('textarea');
-  textarea.value = codeArr[index].code;
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textarea);
-  setCopiedIndex(index);
-  setTimeout(() => handleCp(), 500);
+        const textarea = document.createElement('textarea');
+        textarea.value = codeArr[index].code;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        setCopiedIndex(index);
+        setTimeout(() => handleCp(), 500);
 };
 
   return (
@@ -89,14 +91,14 @@ const copyCode = (index) => {
                         {copiedIndex === 0 ?  <LuCopyCheck/> : <TbCopy/> }
                         </button>
                   </div>
-                  <p>This algorithm follows a straightforward approach, allowing us to obtain the sum of two numbers accurately. 
-                    It can be implemented in any programming language by taking user input, performing the addition operation, 
-                    and displaying the result.
-                  </p>
-                  <h3>Conclusion:</h3>
-                  <p>In this problem analysis, we have defined the input, output, and algorithm for adding two numbers. By following this algorithm, you can easily perform the addition operation and obtain the desired sum. Understanding the problem requirements and
-                     designing a clear algorithm is a crucial step in solving programming problems effectively.
-                  </p>
+                    <p>This algorithm follows a straightforward approach, allowing us to obtain the sum of two numbers accurately. 
+                      It can be implemented in any programming language by taking user input, performing the addition operation, 
+                      and displaying the result.
+                    </p>
+                    <h3>Conclusion:</h3>
+                    <p>In this problem analysis, we have defined the input, output, and algorithm for adding two numbers. By following this algorithm, you can easily perform the addition operation and obtain the desired sum. Understanding the problem requirements and
+                      designing a clear algorithm is a crucial step in solving programming problems effectively.
+                    </p>
               </div>
           </div>
       </div>

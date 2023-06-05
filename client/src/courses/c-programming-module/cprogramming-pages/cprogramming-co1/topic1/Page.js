@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-// import Here
+// import files here
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
 import './Page.css';
 import '../common-css/index.css'
+
+// import icons here 
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
 import { codeArr } from './Codes';
