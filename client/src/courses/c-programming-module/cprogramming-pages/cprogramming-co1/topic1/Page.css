@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.co1-Topic-one h1, h3{
+.co1-topic-one h1, h3{
     color: rgba(0, 0, 139, 0.957);
 }
 
@@ -16,7 +16,7 @@
     transform: translate(-50%, -50%);  
 }
 
-.topic-content {
+.c1t1-content {
     display: flex;
     flex-direction: column;
     border: .1px solid rgba(0, 0, 139, 0.957);
@@ -29,7 +29,7 @@
     border-radius: 10px;
 }
 
-.topic-content-head {
+.c1t1-content-head {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,25 +39,25 @@
 }
 
 
-.topic-content-head p {
+.c1t1-content-head p {
     color: rgb(148, 148, 153);
 }
 
-.topic-intro p {
+.c1t1-intro p {
     font-size: 1.5vw;
 }
 
-.topic-content-one {
+.c1t1-content-one {
     display: flex;
     flex-direction: column;
     gap: 2vw;
 }
 
-.code-container {
+.c1t1-code-container {
    position: relative;
 }
 
-.code-container button {
+.c1t1-code-container button {
     position: absolute;
     top: 1rem;
     right: 0;
