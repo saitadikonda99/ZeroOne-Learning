@@ -20,6 +20,17 @@ function Page() {
                    in detail
                 </p>
             </div>
+            <div className="c1t-common-intro">
+              <p>
+              Nesting of conditional statements refers to the practice of using one or more conditional statements (if, if-else, or switch) within the code block of another conditional statement. It allows for more complex decision-making and branching in your program. Here's an example demonstrating the nesting of conditional statements:
+              </p>
+            </div>
+            <div className="c1t-common-container">
+              <h3>Syntax :</h3>
+            </div>
+            <div className="code-common-container">
+              
+            </div>
           </div>
       </div>
   )

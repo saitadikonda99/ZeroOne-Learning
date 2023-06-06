@@ -59,6 +59,7 @@ function Page() {
                  a block of code if the condition is true. The syntax for 
                  the if statement is as follows:
               </p>
+              <h3>Syntax :</h3>
             </div>
             <div className="code-common-container">
                 <SyntaxHighlighter language="java" style={dracula}>
@@ -98,6 +99,7 @@ function Page() {
                  providing an alternative block of code to execute when the condition is 
                  false. The syntax for the if-else statement is as follows:
               </p>
+              <h3>Syntax :</h3>
             </div>
             <div className="code-common-container">
                 <SyntaxHighlighter language="java" style={dracula}>
@@ -137,6 +139,7 @@ function Page() {
                  used when there are multiple possible values to be checked. The 
                  syntax for the switch statement is as follows:
               </p>
+              <h3>Syntax :</h3>
             </div>
             <div className="code-common-container">
                 <SyntaxHighlighter language="java" style={dracula}>
