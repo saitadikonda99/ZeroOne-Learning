@@ -44,7 +44,6 @@ function Page() {
                       <p>Storage classes in C programming define the scope, visibility, and lifetime of variables. There are four storage classes in C: `auto`, `register`, `static`, and `extern`.</p>
                       <h3>Auto Storage Class:</h3>
                       <p>The `auto` storage class is the default storage class for local variables declared within a block or function. Variables declared as `auto` are allocated memory automatically when the block or function is entered and deallocated when it is exited. The `auto` keyword is rarely used explicitly, as it is the default behavior.</p>
-                    </div>
                     <div className="code-common-container">
                       <SyntaxHighlighter language="c" style={dracula}>
                       {codeArr[0].code}
@@ -88,6 +87,7 @@ function Page() {
                       <button onClick={() => copyCode(3)} className={copiedIndex === 3 ? 'copied' : ''}>
                         {copiedIndex === 3 ? <LuCopyCheck /> : <TbCopy />}
                       </button>
+                    </div>
                     </div>
                   </div>
                 </div>

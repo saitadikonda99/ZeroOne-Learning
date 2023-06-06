@@ -8,7 +8,6 @@
     color: rgba(0, 0, 139, 0.957);
 }
 
-
 .co-sidebar {
     position: fixed;
     top: 50%; 
@@ -25,7 +24,7 @@
     height: fit-content;
     margin-left: auto;
     padding: 5vw;
-    gap: 5vw;
+    gap: 2vw;
     box-shadow: rgba(17, 44, 218, 0.24) 0px 3px 30px;
     border-radius: 10px;
 }

@@ -50,7 +50,6 @@ const copyCode = (index) => {
                  and reuse. It promotes code organization and separation of concerns.
               </p>
               <h3>Let's take an example to understand modularization in C programming:</h3>
-            </div>
             <div className="code-common-container">
                         <SyntaxHighlighter language="java" style={dracula}>
                           {codeArr[0].code}
@@ -70,6 +69,7 @@ const copyCode = (index) => {
             <p>Modularization allows you to reuse code by calling functions from different parts of your program. For example, if you need to calculate the sum or product of two numbers at multiple places in your program, you can simply call the respective functions instead of rewriting the code each time.</p>
 
             <p>Additionally, modularization helps in debugging and maintenance. If there is an issue with a specific functionality, you can focus on that particular function without worrying about the rest of the code. It promotes code organization and makes it easier to locate and fix errors.</p>
+          </div>
           </div>
       </div>
   </div>

@@ -20,6 +20,7 @@ function Page() {
                    in detail
                 </p>
             </div>
+             
           </div>
       </div>
   )
