@@ -8,6 +8,10 @@
     color: rgba(0, 0, 139, 0.957);
 }
 
+/* .topic-container p {
+    font-size: 1.5rem;
+} */
+
 .co-sidebar {
     position: fixed;
     top: 50%; 
