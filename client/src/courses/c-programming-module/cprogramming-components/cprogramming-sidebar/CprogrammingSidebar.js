@@ -71,9 +71,7 @@ const routes = [
     ]
   },
 
-  
 ];
-
 
 const CprogrammingSidebar = ({ children }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

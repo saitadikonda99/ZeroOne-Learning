@@ -113,7 +113,6 @@ function Page() {
                   </button>
                 </div>
 
-
           <div className="c2t-common-container">
               <h3>Palindrome Check :</h3>
               <ul>
