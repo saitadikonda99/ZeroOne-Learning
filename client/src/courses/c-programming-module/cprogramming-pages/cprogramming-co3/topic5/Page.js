@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import ReactPlayer from 'react-player';
+
 
 // imports Here
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
@@ -8,12 +10,12 @@ import './Page.css'
 import '../common-css/index.css'
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
+import videoUrl from '../../../../../assets/bubblesort.mp4'
 
 
 import { codeArr } from './Codes';
 
 function Page() {
-
   const handleCp = () => {
     setCopiedIndex(-1);
   }
@@ -44,8 +46,19 @@ function Page() {
             </div>
             <div className="c3t-common-container">
               <p>Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. It is called Bubble Sort because the smaller elements "bubble" to the top of the list.</p>
-              <h3>Algorithm :</h3>
+              <h3>Animated Video :</h3>
             </div>
+ 
+            <div className='video-container'>
+            <ReactPlayer 
+              url={videoUrl} 
+              controls={true}  
+              width="28%"
+              height="100%" 
+              />
+              <a href="https://www.instagram.com/worldofivo/"> VC : worldofivo </a>
+             </div>
+
 
 <div className="bubble-container">
 
