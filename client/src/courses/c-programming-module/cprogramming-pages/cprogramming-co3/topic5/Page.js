@@ -49,14 +49,14 @@ function Page() {
               <h3>Animated Video :</h3>
             </div>
  
-            <div className='video-container'>
+            <div className='bubble-video-container'>
             <ReactPlayer 
               url={videoUrl} 
               controls={true}  
-              width="28%"
+              width="38%"
               height="100%" 
               />
-              <a href="https://www.instagram.com/worldofivo/"> VC : worldofivo </a>
+              <a href="https://www.instagram.com/worldofivo/"> Video Credits : worldofivo </a>
              </div>
 
 

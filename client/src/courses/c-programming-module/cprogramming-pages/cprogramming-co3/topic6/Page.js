@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import ReactPlayer from 'react-player';
+
 
 // imports Here
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
@@ -8,7 +10,7 @@ import './Page.css'
 import '../common-css/index.css'
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
-
+import videoUrl from '../../../../../assets/linear.mp4'
 
 import { codeArr } from './Codes';
 
@@ -46,6 +48,16 @@ function Page() {
               <p>linear search can be implemented using a loop to iterate through an array or a list and compare each element with the target value. Here's an example of a linear search algorithm implemented in C:</p>
               <h3>Algorithm :</h3>
             </div>
+
+            <div className='linear-video-container'>
+            <ReactPlayer 
+              url={videoUrl} 
+              controls={true}  
+              width="38%"
+              height="100%" 
+              />
+              <a href="https://www.instagram.com/worldofivo/"> Video Credits : worldofivo </a>
+             </div>
 
 <div className="linear-container">
 

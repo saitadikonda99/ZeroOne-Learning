@@ -28,5 +28,20 @@
     background-color: rgb(236, 208, 213);
 }
 
+.linear-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.linear-video-container > a {
+    text-decoration: none;
+}
+
+
+  
+
 
   
