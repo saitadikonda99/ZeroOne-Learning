@@ -66,11 +66,13 @@ function Page() {
               <table className='linear-box-table'>
                 <tbody> 
                   <tr> 
-                    <td>13</td>
+                    <td>9</td>
+                    <td>1</td>
+                    <td>12</td>
+                    <td>6</td>
                     <td>5</td>
-                    <td>10</td>
-                    <td>55</td>
-                    <td>22</td>
+                    <td>3</td>
+                    <td>7</td>
                  </tr>
                 </tbody> 
               </table>
@@ -81,11 +83,13 @@ function Page() {
               <table className='linear-box-table'>
                 <tbody> 
                   <tr> 
-                    <td id="linear-color">10</td>
-                    <td >22</td>
-                    <td>55</td>
-                    <td>13</td>
+                    <td id="linear-color" >9</td>
+                    <td>1</td>
+                    <td>12</td>
+                    <td>6</td>
                     <td>5</td>
+                    <td>3</td>
+                    <td>7</td>
                  </tr>
                 </tbody> 
               </table>
@@ -96,11 +100,13 @@ function Page() {
               <table className='linear-box-table'>
                 <tbody> 
                   <tr> 
-                    <td >10</td>
-                    <td id="linear-color">22</td>
-                    <td >55</td>
-                    <td >13</td>
+                    <td >9</td>
+                    <td  id="linear-color" >1</td>
+                    <td>12</td>
+                    <td>6</td>
                     <td>5</td>
+                    <td>3</td>
+                    <td>7</td>
                  </tr>
                 </tbody> 
               </table>
@@ -111,11 +117,13 @@ function Page() {
               <table className='linear-box-table'>
                 <tbody> 
                   <tr> 
-                    <td >10</td>
-                    <td >22</td>
-                    <td id="linear-color" >55</td>
-                    <td >13</td>
+                    <td >9</td>
+                    <td>1</td>
+                    <td id="linear-color" >12</td>
+                    <td>6</td>
                     <td>5</td>
+                    <td>3</td>
+                    <td>7</td>
                  </tr>
                 </tbody> 
               </table>
@@ -127,11 +135,13 @@ function Page() {
               <table className='linear-box-table'>
                 <tbody> 
                   <tr> 
-                    <td >10</td>
-                    <td >22</td>
-                    <td >55</td>
-                    <td id="linear-color" >13</td>
+                    <td >9</td>
+                    <td>1</td>
+                    <td >12</td>
+                    <td id="linear-color" >6</td>
                     <td>5</td>
+                    <td>3</td>
+                    <td>7</td>
                  </tr>
                 </tbody> 
               </table>
@@ -139,15 +149,35 @@ function Page() {
 
 
             <div className="linear-box">
+              <h4>Not found</h4>
+              <table className='linear-box-table'>
+                <tbody> 
+                  <tr> 
+                  <td >9</td>
+                    <td>1</td>
+                    <td >12</td>
+                    <td >6</td>
+                    <td id="linear-color" >5</td>
+                    <td>3</td>
+                    <td>7</td>
+                 </tr>
+                </tbody> 
+              </table>
+            </div>
+       
+
+        <div className="linear-box">
               <h4>found</h4>
               <table className='linear-box-table'>
                 <tbody> 
                   <tr> 
-                    <td >10</td>
-                    <td >22</td>
-                    <td >55</td>
-                    <td >13</td>
-                    <td id="linear-color">5</td>
+                  <td >9</td>
+                    <td>1</td>
+                    <td >12</td>
+                    <td >6</td>
+                    <td >5</td>
+                    <td  id="linear-color" >3</td>
+                    <td>7</td>
                  </tr>
                 </tbody> 
               </table>

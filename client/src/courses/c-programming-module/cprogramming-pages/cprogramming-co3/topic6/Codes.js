@@ -12,9 +12,9 @@ int linear_search(int arr[], int size, int target) {
 }
 
 int main() {
-    int my_array[] = {13, 5, 10, 55, 22};
+    int my_array[] = {9, 1, 12, 6, 5, 3, 7};
     int size = sizeof(my_array) / sizeof(my_array[0]);
-    int target_value = 55;
+    int target_value = 3;
     int result = linear_search(my_array, size, target_value);
     
     if (result != -1) {
