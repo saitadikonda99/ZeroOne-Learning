@@ -80,7 +80,7 @@ const CprogrammingApp = () => {
 
     // CO3 - Advanced Concepts
     { name: 'Data-Types-II', path: 'co3/Data-Types-II', component: Co3topic1page },
-    { name: 'Command-Line-Argumentsg', path: 'co3/Command-Line-Arguments', component: Co3topic2page },
+    { name: 'Command-Line-Arguments', path: 'co3/Command-Line-Arguments', component: Co3topic2page },
     { name: 'Strings-and-String-Library', path: 'co3/Strings-and-String-Library', component: Co3topic3page },
     { name: 'Arrays-Creation-Insertion', path: 'co3/Arrays-Creation-Insertion', component: Co3topic4page },
     { name: 'Bubble-Sort', path: 'co3/Bubble-Sort', component: Co3topic5page },

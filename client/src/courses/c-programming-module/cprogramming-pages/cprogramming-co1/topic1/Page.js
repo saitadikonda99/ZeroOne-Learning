@@ -56,7 +56,7 @@ const Page = () => {
 
                                             {/* first one */}
                     <div className="c1t-common-container">
-                      <h1>1. Single Entry, Single Exit (SESE):</h1>
+                      <h3>1. Single Entry, Single Exit (SESE):</h3>
                       <p>
                         Single Entry, Single Exit (SESE): Each block of code should have
                         only one entry point and one exit point, making the program flow
@@ -78,7 +78,7 @@ const Page = () => {
                     </div>
                                       {/* second one */}
                   <div className="c1t-common-container">
-                      <h1>2.Top-Down Design:</h1>
+                      <h3>2.Top-Down Design:</h3>
                           <p>
                           Break down the problem into smaller, manageable modules 
                           or functions. Start with the main problem and then 
@@ -101,7 +101,7 @@ const Page = () => {
 
                             {/* three one */}
                   <div className="c1t-common-container">
-                      <h1>3.Stepwise Refinement:</h1>
+                      <h3>3.Stepwise Refinement:</h3>
                           <p>
                           Refine the solution step by step, starting with a high-level
                            outline and gradually adding more details. This approach 
@@ -124,7 +124,7 @@ const Page = () => {
 
                     {/* four one */}
                   <div className="c1t-common-container">
-                      <h1>4.Use of Control Structures:</h1>
+                      <h3>4.Use of Control Structures:</h3>
                           <p>
                           Utilize control structures such as if...else statements,
                           loops, and switch statements to control the flow of 
@@ -148,7 +148,7 @@ const Page = () => {
 
                        {/* five one */}
                   <div className="c1t-common-container">
-                      <h1>5.Modularization:</h1>
+                      <h3>5.Modularization:</h3>
                           <p>
                           Divide the program into modules or functions, each 
                           responsible for a specific task. Modularization promotes
