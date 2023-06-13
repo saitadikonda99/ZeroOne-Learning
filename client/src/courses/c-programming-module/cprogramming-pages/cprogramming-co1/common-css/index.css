@@ -16,7 +16,6 @@
     transform: translate(-50%, -50%);  
 }
 
-
 .topic-content {
     display: flex;
     flex-direction: column;
@@ -54,7 +53,7 @@
      font-size: 20px;
  }
  
- .c1t-common-container {
+.c1t-common-container {
     display: flex;
     flex-direction: column;
     gap: 2vw;
