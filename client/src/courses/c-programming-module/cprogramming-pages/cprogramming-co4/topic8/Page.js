@@ -49,7 +49,7 @@ function Page() {
               <h3>Animated Video :</h3>
             </div>
 
-            <div className="stack-video-container">
+            <div className="queue-video-container">
               <ReactPlayer 
                 url={videoUrl} 
                 controls={true}  

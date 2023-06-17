@@ -9,7 +9,7 @@ import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-s
 import './Page.css';
 import '../Common-css/index.css';
 import { codeArr } from './Codes';
-import videoUrl from '../../../../../assets/queue.mp4'
+import videoUrl from '../../../../../assets/linked.mp4'
 
 function Page() {
   const handleCp = () => {
@@ -49,7 +49,7 @@ function Page() {
               <h3>Animated Video :</h3>
             </div>
 
-            <div className="stack-video-container">
+            <div className="linked-video-container">
               <ReactPlayer 
                 url={videoUrl} 
                 controls={true}  
@@ -73,14 +73,19 @@ function Page() {
         </div>
 
 
-        <div className="queue-ul-container">
+        <div className="linked-ul-container">
             <ul>
-                <li> <b>Enqueue:</b>  Adds an element to the rear of the queue.</li>
-                <li> <b>Dequeue:</b>  Removes and returns the element from the front of the queue.</li>
-                <li> <b>Front:</b>  Returns the element at the front of the queue without removing it.</li>
-                <li> <b>Rear:</b>  Returns the element at the rear of the queue without removing it.</li>
-                <li> <b>IsEmpty:</b>  Checks if the queue is empty.</li>
-                <li> <b>IsFull:</b>  Checks if the queue is full.</li>
+                <li><b>append():</b> This function appends a new node at the end of the linked list. It takes input from the user for the data of the new node and inserts it at the end of the list.</li>
+                <li><b>insert_begin():</b> This function inserts a new node at the beginning of the linked list. It takes input from the user for the data of the new node and inserts it at the beginning of the list.</li>
+                <li><b>length_linked():</b> This function calculates and returns the length of the linked list. It traverses the entire list and increments a counter for each node encountered.</li>
+                <li><b>insert_pos():</b> This function inserts a new node at a specified position in the linked list. It takes input from the user for the position and data of the new node and inserts it at the specified position.</li>
+                <li><b>delete_begin():</b> This function deletes the first node of the linked list.</li>
+                <li><b>delete_pos():</b> This function deletes a node from a specified position in the linked list. It takes input from the user for the position of the node to be deleted and removes it from the list.</li>
+                <li><b>delete_last():</b> This function deletes the last node of the linked list.</li>
+                <li><b>display():</b> This function displays the contents of the linked list. It traverses the entire list and prints the data of each node.</li>
+                <li><b>reverse():</b> This function reverses the linked list by swapping the data of nodes. It uses two pointers to traverse the list in opposite directions and swaps the data of corresponding nodes until the middle of the list is reached.</li>
+                <li><b>sum():</b> This function calculates and prints the sum of all the data elements in the linked list.</li>
+                <li><b>product():</b> This function calculates and prints the product of all the data elements in the linked list.</li>
           </ul>
         </div>
 

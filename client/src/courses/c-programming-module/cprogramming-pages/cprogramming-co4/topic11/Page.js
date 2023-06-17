@@ -15,7 +15,7 @@ function Page() {
            <div className="topic-content">
             <div className="topic-content-head">
                 <h1>Non-linear Data Structures</h1>
-                <p>In this page you will learn Non-linear Data Structures
+                <p>Introduction to Non-linear Data Structures
                    in detail
                 </p>
             </div>
