@@ -1,10 +1,23 @@
 import React from 'react'
+import './CourseNav.css'
+import {FaLeftLong} from 'react-icons/fa6'
+import {  Link } from 'react-router-dom';
 
-const CourseNav = () => {
+function CourseNav() {
   return (
-    <div>
-        <h1>Courses Navigation Bar</h1>
-    </div>
+        <div className="nav-container">
+            
+            <h1>NAV BAR </h1>
+
+            <div className="nav-con-but">
+             <Link to='/courses' className='Back-to-course-nav-button'>
+              <button>
+                <FaLeftLong/>
+                Back to course
+               </button>
+             </Link>
+            </div>
+        </div>
   )
 }
 

@@ -1,6 +1,162 @@
-.CHomePageComponent {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c-main-container {
+    display: grid;
+    gap: 5vw;
+}
+
+.c-prog-details {
+    height: 80vh;
+    width: 100%;
+    margin-top: .6%;
+    background-color:black;
+    /* background-color: rgb(245, 245, 247); */
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.cosidebar {
-    width: 25%;
+
+.c-prog-img img {
+    max-height: 40vw;
+    max-width: 100%;
 }
+
+.c-prog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-prog-content span {
+    font-size: 60px;
+}
+
+.c-prog-content h2 {
+    color: rgb(165, 26, 26);
+    text-align: center;
+}
+
+.c-prog-content h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.c-prog-buttons {
+    margin: 30px;
+    display: flex;
+    gap: 2vw;
+}
+
+.c-prog-buttons-one {
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.c-prog-buttons-two {
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.c-prog-topics {
+    height: 60vw;
+    width: 100%;
+}
+
+.c-prog-topics {
+    display: grid;
+}
+
+.c-prog-topics-head {
+    text-align: center;
+    font-size: 30px;
+}
+
+.c-prog-topic-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    gap: 5rem;
+    padding: 50px;
+    height: fit-content;
+    width: 100%;
+}
+
+                    /* cards css */
+
+.card {
+    height: 30rem;
+    width: 25rem;
+    perspective: 100rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
+    border-radius: 20px;
+}
+
+.card-front {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 700ms ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30rem;
+    width: 25rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(246, 246, 246);
+}
+    
+.card-back {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 700ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30rem;
+    width: 25rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(242, 242, 242);
+    background-color: white;
+}
+    
+.card:hover .card-front {
+    transform: rotateY(-180deg);
+}
+    
+.card:hover .card-back {
+    transform: rotateY(0);
+}
+
+.card-icon {
+    font-size: 50px;
+}
+
+.card-back ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
