@@ -1,6 +1,6 @@
 import React from 'react'
 import './CourseFooter.css'
-
+import { Link } from 'react-router-dom'
 
 // imports start here
 import { AiOutlineInstagram } from 'react-icons/ai'
@@ -16,13 +16,19 @@ const CourseFooter = () => {
        </div>
         <div className="footer-in-two">
           <div className="footer-in-names">
-           <p>Designed & Developed By Deepak Reddy Gathpa & Tadikonda Sai Manikanta</p>
+             <p>Designed & Developed By Deepak Reddy Gathpa & Tadikonda Sai Manikanta</p>
            </div>
             <div className="footer-in-socials">
-              <AiOutlineInstagram/>
-              <FaTelegram className='telegram'/>
-              <BsGithub/>
-          </div>
+              <Link to='https://instagram.com/' className='footer-in-socials-link'>
+                <AiOutlineInstagram/>
+                 </Link>
+                  <Link to='https://telegram.com/' className='footer-in-socials-link'>
+                    <FaTelegram className='telegram'/>
+                      </Link>
+                       <Link to='https://github.com/' className='footer-in-socials-link'>
+                        <BsGithub/>
+                 </Link>
+             </div>
         </div>
     </div>
   )

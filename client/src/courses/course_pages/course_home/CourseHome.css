@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CourseHomeComponent {
+    height: fit-content;
+    width: 100%;
+}
+
+.CourseHome-Container{
+    padding-top: 100px;
+}
