@@ -11,7 +11,7 @@ import cimage from '../../../assets/c.png'
 import {AiOutlineDoubleRight} from 'react-icons/ai'
 import {BsChevronDoubleDown} from 'react-icons/bs'
 import {PiHandTapThin} from 'react-icons/pi'
-import CourseNav from '../../course_components/course_nav/CourseNav';
+import Cnavbar from '../C-programming-nav/Cnavbar';
 import CourseFooter from '../../course_components/course_footer/CourseFooter';
 
 const CHomePage = () => {
@@ -20,7 +20,7 @@ const CHomePage = () => {
     <div className='CHomePageComponent'>
          <div className="c-main-container">
                 <div className="c-main-nav-ks">
-                  <CourseNav/>
+                  <Cnavbar/>
                 </div>
             <div className="c-prog-details">
                 <div className="c-prog-img">
