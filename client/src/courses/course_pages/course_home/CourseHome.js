@@ -21,26 +21,27 @@ const CourseHome = () => {
                 </div>
               <div className="course-home-courses">
             <div className="course-home-courses-one">
-                  <h1> take a look at courses avaliable</h1> 
+                  <h1> Start your learning coding </h1> 
+                  <p>Learn coding from scratch with these tutorials </p>
           </div>
         <div className="course-home-courses-two ">
       <div className="courses-in-one">
-          <Link to='/courses/c-programming' className='common-course-css'> <FaPython/> C-programming</Link>
+          <Link to='/courses/c-programming' className='common-course-css'> <span className='c-logo'>C</span> C-programming</Link>
             </div>
               <div className="courses-in-two">
-                <Link to='/courses/c-programming' className='common-course-css'>C-programming</Link>
+                <Link to='/courses' className='common-course-css'>Coming soon!</Link>
                   </div>
                     <div className="courses-in-three">
-                     <Link to='/courses/c-programming' className='common-course-css'>C-programming</Link>
+                     <Link to='/courses' className='common-course-css'>Coming soon!</Link>
                     </div>
                   <div className="courses-in-four">
-                 <Link to='/courses/c-programming' className='common-course-css'>C-programming</Link>
+                 <Link to='/courses' className='common-course-css'>Coming soon!</Link>
             </div>
         <div className="courses-in-five">
-        <Link to='/courses/c-programming' className='common-course-css'>C-programming</Link>
+        <Link to='/courses' className='common-course-css'>Coming soon!</Link>
             </div>
               <div className="courses-in-six">
-               <Link to='/courses/c-programming' className='common-course-css'>C-programming</Link>
+               <Link to='/courses' className='common-course-css'>Coming soon!</Link>
                   </div>
                   </div>
              </div>
