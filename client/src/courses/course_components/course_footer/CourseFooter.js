@@ -26,7 +26,7 @@ const CourseFooter = () => {
                     <FaTelegram className='telegram'/>
                       </Link>
                        <Link to='https://github.com/' className='footer-in-socials-link'>
-                        <BsGithub/>
+                        <BsGithub className='github'/>
                  </Link>
              </div>
         </div>

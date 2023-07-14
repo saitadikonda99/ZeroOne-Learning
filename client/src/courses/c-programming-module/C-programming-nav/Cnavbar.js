@@ -6,11 +6,11 @@ import './Cnavbar.css'
 
 function CNavbar() {
   return (
-        <div className="nav-container">
+        <div className="c-nav-container">
             
             <h1>NAV BAR </h1>
 
-            <div className="nav-con-but">
+            <div className="c-nav-con-but">
              <Link to='/courses' className='Back-to-course-nav-button'>
               <button>
                 <FaLeftLong/>

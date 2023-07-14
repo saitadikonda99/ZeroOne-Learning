@@ -1,36 +1,35 @@
 import React from 'react';
 import { Link as Scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
+import { AiOutlineDoubleRight } from 'react-icons/ai';
+import { BsChevronDoubleDown } from 'react-icons/bs';
+import { PiHandTapThin } from 'react-icons/pi';
 
+import './CHomePage.css';
+import cimage from '../../../assets/c.png';
 
-import './CHomePage.css'
-
-
-// import here 
-import cimage from '../../../assets/c.png'
-import {AiOutlineDoubleRight} from 'react-icons/ai'
-import {BsChevronDoubleDown} from 'react-icons/bs'
-import {PiHandTapThin} from 'react-icons/pi'
+// Import other components and modules here
 import Cnavbar from '../C-programming-nav/Cnavbar';
 import CourseFooter from '../../course_components/course_footer/CourseFooter';
+
 
 const CHomePage = () => {
 
   return (
     <div className='CHomePageComponent'>
-         <div className="c-main-container">
-                <div className="c-main-nav-ks">
-                  <Cnavbar/>
-                </div>
+       <div className="c-main-container">
+          <div className="c-main-nav-ks">
+            <Cnavbar/>
+          </div>
             <div className="c-prog-details">
-                <div className="c-prog-img">
-                    <img src={cimage} alt='c-prog' />
-                </div>
-                <div className="c-prog-content">
+               <div className="c-prog-img">
+                  <img src={cimage} alt='c-prog' />
+              </div>
+                  <div className="c-prog-content">
                     <h2> <span>C </span>Road Map</h2>
                     <h1>Completely beginner-friendly.</h1>
-                <div className="c-prog-buttons">
-                <Scroll
+                 <div className="c-prog-buttons">
+                   <Scroll
                     activeClass="active"
                     to="c-prog-topics"
                     spy ={true}
