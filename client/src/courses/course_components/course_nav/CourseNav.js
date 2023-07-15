@@ -17,8 +17,8 @@ function CourseNav() {
         <div className="nav-links">
           <div className="nav-links-in">
               <Link to='/'>Home</Link>
-              <Link to='/courses'>Courses</Link>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/'>Courses</Link>
+              <Link to='/'>Contact</Link>
                 </div>
               </div>
             <div className="nav-button">
