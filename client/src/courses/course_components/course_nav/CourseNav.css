@@ -12,8 +12,46 @@
     top: 0;
     backdrop-filter: blur(10px);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    border: 2px solid pink;
+    border: 1px solid rgb(236, 234, 235);
+    background-color: transparent;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-logo-head {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(21, 0, 128);
+    margin-top: auto;
+}
+
+
+
+.nav-links-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-right: 10px;
+}
+
+.nav-links-in a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.nav-button-in {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
 }
