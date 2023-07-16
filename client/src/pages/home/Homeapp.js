@@ -6,8 +6,8 @@ import {Routes, Route } from 'react-router-dom';
 //import components here
 
 
-import CprogrammingApp from './c-programming-module/CprogrammingApp';
-import CourseHome from './course_pages/course_home/CourseHome';
+import CprogrammingApp from '../../courses/c-programming-module/CprogrammingApp';
+import CourseHome from './Home';
 
 const CourseApp = () => {
   return (
@@ -22,6 +22,6 @@ const CourseApp = () => {
         </div>
     </div>
   )
-}
+} 
 
 export default CourseApp

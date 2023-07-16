@@ -1,53 +1,131 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Link as Scroll } from 'react-scroll';
 import './Home.css';
 
 
 
-//import components here
-import NavBar from '../../components/navigation-bar/NavBar';
-import Footer from '../../components/footer/Footer';
+import CourseFooter from '../../components/course_footer/CourseFooter'; 
+import CourseNav from '../../components/course_nav/CourseNav';
+import { FaFreeCodeCamp } from 'react-icons/fa';
+import { GrUserExpert } from 'react-icons/gr';
 
-
-const Home = () => {
+const CourseHome = () => {
   return (
-    <div className='HomeComponent'>
-      <NavBar/>
-        <div className="HomeContainer">
-          <div className="Home">
-             
+    <div className='CourseHomeComponent'>
+       <div className="courseHome-nav">
+          <CourseNav/>
+            </div>
+              <div className="courseHome-container">
+                  <div className="courseHome-head-one">
+                      <p> Start now for free</p>
+                        <h1> Best Academic online learning</h1>
+                          <h1>platform</h1>
+                          <div className="courseHome-head-one-button">
+                          <Scroll
+                              activeClass="active"
+                              to="course-home-courses"
+                              spy ={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                               >
+                              <button>Explore courses</button>
+                            </Scroll>
+                          </div>
+                     </div>
+                 <div className="courseHome-head-two">
+             <div class="courseHome-boxes-one">  <h2> <FaFreeCodeCamp/> Free Courses</h2> </div>
+           <div class="courseHome-boxes-two"> <h1> <GrUserExpert/> Expert Instructor </h1> </div>
+        </div>
+      </div>   
 
 
-        <div className="one hero">
-          <div className="one-in">
-            <div className="one-in-one">
-                <div className="oio-one">
-                    <div className="oio-one-in">
-                      <p>For Better Future</p>
-                      <h1>Join and become the part of trusted community</h1>
-                      <p id='ptwo'>Find the right instructor for you</p>
-                      <div className="oioo-bi">
-                        <Link className='oioo-bi-links' to='/' >About Us</Link>
-                        <Link className='oioo-bi-links' to='/' >Courses</Link>
-                      </div>
+        <div className="course-home-courses">
+            <div className="course-home-courses-one">
+               <h1> Start your learning coding </h1> 
+                  <p>Learn coding from scratch with these tutorials </p>
+                     </div>
+                  <div className="course-home-courses-two ">
+              <div className="courses-in-one">
+           <Link to='/courses/c-programming' className='common-course-css'> <span className='c-logo'>C</span> C-programming</Link>
+              </div>
+                <div className="courses-in-two">
+                  <Link to='/courses' className='common-course-css'>Coming soon!</Link>
                     </div>
+                      <div className="courses-in-three">
+                        <Link to='/courses' className='common-course-css'>Coming soon!</Link>
+                    </div>
+                  <div className="courses-in-four">
+               <Link to='/courses' className='common-course-css'>Coming soon!</Link>
+            </div>
+        <div className="courses-in-five">
+          <Link to='/courses' className='common-course-css'>Coming soon!</Link>
+             </div>
+               <div className="courses-in-six">
+                 <Link to='/courses' className='common-course-css'>Coming soon!</Link>
+                   </div>
                 </div>
-                <div className="oio-two">
+             </div>
 
+
+              <div className="about-container">
+                <div className="about-container-in">
+                  <h1>The Collab Team with High Technical Skills</h1>
+                    <h2>Help You Learn a New Profession</h2>
                 </div>
-            </div>
-            <div className="one-in-two">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e74040" fill-opacity="1" d="M0,128L240,160L480,128L720,128L960,64L1200,64L1440,128L1440,0L1200,0L960,0L720,0L480,0L240,0L0,0Z"></path></svg>
-            </div>
-          </div>
+
+                <div className="CourseHome-Body-Content-two">
+                      <div className="courseHome-element-one-content">
+                        <div className="courseHome-element-one-content-in">
+                          <span className='number-css'> 01 </span>
+                        </div>
+                          <div className="courseHome-element-one-content-in-one">
+                              <h1>Theoretical Knowledge</h1>
+                            </div>
+                      </div>
+
+                      <div className="courseHome-element-two-content">
+                      <div className="courseHome-element-two-content-in">
+                      <span className='number-css'> 02 </span>
+                        </div>
+                      <div className="courseHome-element-two-content-in-one">
+                              <h1>Practical Skills</h1>
+                            </div>
+
+                      </div>
+
+                      <div className="courseHome-element-three-content">
+                      <div className="courseHome-element-three-content-in">
+                      <span className='number-css'> 03 </span>
+                        </div>
+                      <div className="courseHome-element-three-content-in-one">
+                              <h1>Work with a Mentor</h1>
+                            </div>
+                            </div>
+
+                            <div className="courseHome-element-four-content">
+                      <div className="courseHome-element-four-content-in">
+                      <span className='number-css'> 04 </span>
+                        </div>
+                      <div className="courseHome-element-four-content-in-one">
+                              <h1>Final Test or Project</h1>
+                            </div>
+
+
+                            </div>
+                            </div>
+                            </div>
+
+
+
+
+           
+        <div className="course-footer-container">
+          <CourseFooter/>
         </div>
-        
-                   
-            </div>
-          </div>
-        
-        </div>
+    </div>
   )
 }
 
-export default Home
+export default CourseHome

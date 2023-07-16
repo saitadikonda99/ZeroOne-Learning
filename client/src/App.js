@@ -5,11 +5,9 @@ import { Routes, Route } from 'react-router-dom';
 
 
 
-import CourseApp from './courses/CourseApp';
-import CourseHome from './courses/course_pages/course_home/CourseHome';
-
-
-
+import CourseApp from './Pages/Home/Homeapp';
+import CourseHome from './Pages/Home/Home';
+import CprogrammingApp from './courses/c-programming-module/CprogrammingApp';
 
 
 function App() {
@@ -18,7 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<CourseHome/>}></Route>
         <Route path='/courses/*' element={<CourseApp/>}></Route>
-        
+        <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
       </Routes>
     </div>
   );
