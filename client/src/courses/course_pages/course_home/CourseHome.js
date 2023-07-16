@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Link as Scroll } from 'react-scroll';
 import './CourseHome.css';
 
 
@@ -21,9 +22,16 @@ const CourseHome = () => {
                         <h1> Best Academic online learning</h1>
                           <h1>platform</h1>
                           <div className="courseHome-head-one-button">
-                            <Link to='/'>
+                          <Scroll
+                              activeClass="active"
+                              to="course-home-courses"
+                              spy ={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                               >
                               <button>Explore courses</button>
-                            </Link>
+                            </Scroll>
                           </div>
                      </div>
                  <div className="courseHome-head-two">

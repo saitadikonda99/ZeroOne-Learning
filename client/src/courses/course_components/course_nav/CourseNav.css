@@ -47,11 +47,24 @@
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-links-in a:hover {
+    color: red;
 }
 
 .nav-button-in {
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 1rem;
     border-radius: 10px;
     border: none;
+    background-color: rgba(39, 20, 239, 0.996);
+    color: white;
+    transition: transform 0.2s ease;
+    font-weight: 600;
+}
+
+.nav-button-in:hover {
+    background-color: red;
 }

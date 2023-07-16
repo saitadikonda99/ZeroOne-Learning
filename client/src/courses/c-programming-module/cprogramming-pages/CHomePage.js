@@ -17,10 +17,13 @@ const CHomePage = () => {
 
   return (
     <div className='CHomePageComponent'>
+      
        <div className="c-main-container">
           <div className="c-main-nav-ks">
             <Cnavbar/>
           </div>
+
+
             <div className="c-prog-details">
                <div className="c-prog-img">
                   <img src={cimage} alt='c-prog' />
@@ -49,6 +52,8 @@ const CHomePage = () => {
                 </div>
                 </div>
             </div>
+
+
             <div className="c-prog-topics">
             <div className="c-prog-topics-head">
                 <h1>Course Details </h1>
@@ -60,6 +65,7 @@ const CHomePage = () => {
                 <Cardfour/>
             </div>
             </div>
+
 
             <div className="c-prog-footer">
         <CourseFooter/>

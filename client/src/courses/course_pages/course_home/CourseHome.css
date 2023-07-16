@@ -15,7 +15,6 @@
     align-items: center;
     width: 100%;
     height: fit-content;
-    background-color: rgb(253, 248, 250);
 }
 
 .courseHome-head-one {
@@ -27,6 +26,12 @@
     width: 80%;
     height: 50vw;
     font-size: 2vw;
+}
+
+.courseHome-head-one h1 {
+    background: linear-gradient(to right, black, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .courseHome-head-one p {

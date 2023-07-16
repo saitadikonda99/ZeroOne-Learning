@@ -2,6 +2,7 @@ import React from 'react'
 import './CourseNav.css'
 import {FiCode} from 'react-icons/fi'
 import {  Link } from 'react-router-dom';
+import { Link as Scroll } from 'react-scroll';
 
 function CourseNav() {
   return (
@@ -16,9 +17,27 @@ function CourseNav() {
           </div>
         <div className="nav-links">
           <div className="nav-links-in">
-              <Link to='/'>Home</Link>
-              <Link to='/'>Courses</Link>
-              <Link to='/'>Contact</Link>
+          <Scroll
+                    activeClass="active"
+                    to="courseHome-container"
+                    spy ={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                      >
+                       <Link to='/'>Home</Link>
+                    </Scroll>
+              <Scroll
+                    activeClass="active"
+                    to="course-home-courses"
+                    spy ={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                      >
+                       <Link to='/'>Courses</Link>
+                    </Scroll>
+                  <Link to='/'>Contact</Link>
                 </div>
               </div>
             <div className="nav-button">
