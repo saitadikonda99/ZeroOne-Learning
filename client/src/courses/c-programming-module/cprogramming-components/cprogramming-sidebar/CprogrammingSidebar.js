@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, Outlet, NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 
 import './CprogrammingSidebar.css';
@@ -73,16 +73,26 @@ const routes = [
 
 ];
 
+
 const CprogrammingSidebar = ({ children }) => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedContent, setSelectedContent] = useState('');
+  const location = useLocation();
+
+  useEffect(() => {
+    const currentPath = location.pathname;
+    const matchedRoute = routes.find((route) => route.paths.some((path) => currentPath.includes(path)));
+
+    if (matchedRoute) {
+      setSelectedContent(matchedRoute.content);
+    } else {
+      setSelectedContent('');
+    }
+  }, [location]);
 
   const toggleDropdown = (content) => {
-    if (dropdownOpen && selectedContent === content) {
-      setDropdownOpen(false);
+    if (selectedContent === content) {
       setSelectedContent('');
     } else {
-      setDropdownOpen(true);
       setSelectedContent(content);
     }
   };
@@ -97,33 +107,26 @@ const CprogrammingSidebar = ({ children }) => {
           {routes.map((route) => (
             <div key={route.name} className="whole">
               <div className="whole-link" onClick={() => toggleDropdown(route.content)}>
-                <div className="link_text">{route.name}</div>
-                
-                <i
-                  className={`fa ${
-                    dropdownOpen && selectedContent === route.content
-                      ? 'fa-angle-double-up'
-                      : 'fa-angle-double-right'
-                  }`}
-                  aria-hidden="true"
-                ></i>
+                <div  className={` link_text arrow-icon ${selectedContent === route.content ? 'expanded' : ''}`}>{route.name}</div>
+               
               </div>
-              {dropdownOpen && selectedContent === route.content && (
+              {selectedContent === route.content && (
                 <div className="dropdown">
-                    <div className="dropdown-content">
-                        {Array.isArray(route.content) ? (
-                            route.content.map((item, index) => (
-                            <div className='dc-keys' key={item}>
-                            <FaLongArrowAltRight/> 
-                            <Link className='dc-keys-link' to={route.paths[index]}>
-                                {item}
-                            </Link>
-                            </div>
-                        ))
-                        ) : (
-                        <div>{route.content}</div>
-                        )}
-                    </div>
+                  <div className="dropdown-content">
+                    {route.content.map((item, index) => (
+                      <div
+                        className={`dc-keys ${
+                          route.paths[index] === location.pathname ? 'active' : ''
+                        }`}
+                        key={item}
+                      >
+                        <FaLongArrowAltRight />
+                        <Link className="dc-keys-link" to={route.paths[index]}>
+                          {item}
+                        </Link>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>

@@ -89,4 +89,11 @@
 .fa-angle-double-up {
     transform: rotate(-180deg);
 }
-  
+
+.active a {
+    color: red;
+}
+
+.expanded {
+    color: red;
+}
