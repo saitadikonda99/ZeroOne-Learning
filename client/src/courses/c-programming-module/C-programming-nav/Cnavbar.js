@@ -35,10 +35,12 @@ function CNavbar() {
           </div>
         </div>
       <div className="c-nav-con-but">
+       < Link to='/' className="c-nav-con-but"> 
       <button>
                 <FaLeftLong/>
                 Back to course
-               </button>
+      </button>
+      </Link>
       </div>
   </div>
 

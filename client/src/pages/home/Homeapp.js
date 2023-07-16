@@ -4,10 +4,8 @@ import {Routes, Route } from 'react-router-dom';
 
 
 //import components here
-
-
 import CprogrammingApp from '../../courses/c-programming-module/CprogrammingApp';
-import CourseHome from './Home';
+import Home from './Home';
 
 const CourseApp = () => {
   return (
@@ -15,7 +13,7 @@ const CourseApp = () => {
         <div className="CourseAppContainer">
             <div className="CourseAppMain">
                 <Routes>
-                    <Route path='/' element={<CourseHome/>}></Route>
+                    <Route path='/' element={<Home/>}></Route>
                     <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
                 </Routes>
             </div>
