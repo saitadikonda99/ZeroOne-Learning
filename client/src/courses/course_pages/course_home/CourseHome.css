@@ -6,157 +6,91 @@
 
 .CourseHomeComponent {
     width: 100%;
-}
-
-.CourseHome-Body {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: min-content;
-}
-
-.CourseHome-Body-Content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 30px;
-    height: 40rem;
-    width: 100%;
-    background-color: rgb(246, 246, 246); /* Fallback color */
-    background-image: linear-gradient(rgba(135, 206, 235, 0.2) 1px, transparent 1px),
-                      linear-gradient(90deg, rgba(135, 206, 235, 0.2) 1px, transparent 1px);
-    background-size: 1cm 1cm;
-}
-
-
-.CourseHome-Body-Content h1 {
-    font-size: 1.5rem;
-}
-
-.CourseHome-Body-Content-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.CourseHome-Body-Content-one > h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    color: rgb(21, 0, 128);
-}
-
-.CourseHome-Body-Content-one > h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: rgb(21, 0, 128);
-}
-
-.CourseHome-Body-Content-two {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
     height: fit-content;
+    background-color: rgb(253, 248, 250);
+}
+
+.courseHome-container {
+    display: flex;
+    align-items: center;
     width: 100%;
+    height: fit-content;
+    background-color: rgb(253, 248, 250);
 }
 
-
-.courseHome-element-one-content {
+.courseHome-head-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 10rem;
-    gap: 20px;
-    width: 20%;
+    margin-right: auto;
+    align-items: center;
+    width: 80%;
+    height: 50vw;
+    font-size: 2vw;
 }
 
-.courseHome-element-two-content {
+.courseHome-head-one p {
+    color: rgba(250, 14, 14, 0.996);
+    font-weight: 400;
+}
+
+.courseHome-head-one-button {
+    padding-top: 10%;
+}
+
+
+
+.courseHome-head-one-button button {
+    padding: 10px;
+    border: 2px solid rgba(27, 43, 218, 0.996);
+    border-radius: 10px;
+    background-color: rgba(39, 20, 239, 0.996);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.courseHome-head-two {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    height: 10rem;
-    gap: 20px;
-    width: 20%;
-
+    align-items: flex-end;
+    gap: 10vw;
+    width: 50%;
+    height: 40vw;
+    background-image: url(../../../assets/zero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.courseHome-element-three-content {
+
+.courseHome-boxes-one {
+    width: 100%;
+    height: 5vw;
+    border: .1px solid gray;
+    background-color: white;
+    margin-bottom: 20%;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 10rem;
-    gap: 20px;
-    width: 20%;
+    align-items: center;
+    font-size: 1vw;
+
 }
 
-.courseHome-element-four-content {
+.courseHome-boxes-two {
+    width: 100%;
+    height: 5vw;
+    border: .1px solid gray;
+    background-color: white;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 10rem;
-    gap: 20px;
-    width: 20%;
-}
-
-.courseHome-element-one-content-in {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
-    width: 90%;
-    border-bottom: .1px solid gray;
-    padding: 10px 0;
+    font-size: .6vw;
 }
-
-.courseHome-element-two-content-in {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    width: 90%;
-    border-bottom: .1px solid gray;
-    padding: 10px 0;
-}
-
-.courseHome-element-three-content-in {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    width: 90%;
-    border-bottom: .1px solid gray;
-    padding: 10px 0;
-}
-
-.courseHome-element-four-content-in {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    width: 90%;
-    border-bottom: .1px solid gray;
-    padding: 10px 0;
-}
-
-.number-css {
-    font-size: 65px;
-    font-weight: 800;
-    line-height: 68px;
-    font-family: Barlow, sans-serif;
-    color: #fff;
-    text-shadow:
-        -1px -1px 0 gray,
-        1px -1px 0 gray,
-        -1px 1px 0 gray,
-        1px 1px 0 gray;
-  }
-  
-
-
 
 
 
@@ -226,3 +160,125 @@
     border-radius: 50%;
     padding: 0 6px;
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40vw;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.about-container-in {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.CourseHome-Body-Content-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+    width: 100%;
+}
+
+
+.courseHome-element-one-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+    gap: 20px;
+    width: 20%;
+    font-size: .7vw;
+}
+
+.courseHome-element-two-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+    gap: 20px;
+    width: 20%;
+    font-size: .7vw;
+}
+
+.courseHome-element-three-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+    gap: 20px;
+    width: 20%;
+    font-size: .7vw;
+}
+
+.courseHome-element-four-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+    gap: 20px;
+    width: 20%; 
+    font-size: .7vw;
+}
+
+.courseHome-element-one-content-in {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    border-bottom: .1px solid gray;
+    padding: 10px 0;
+}
+
+.courseHome-element-two-content-in {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    border-bottom: .1px solid gray;
+    padding: 10px 0;
+}
+
+.courseHome-element-three-content-in {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    border-bottom: .1px solid gray;
+    padding: 10px 0;
+}
+
+.courseHome-element-four-content-in {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    border-bottom: .1px solid gray;
+    padding: 10px 0;
+}
+
+.number-css {
+    font-size: 6vw;
+    font-weight: 800;
+    line-height: 68px;
+    font-family: Barlow, sans-serif;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 gray,
+        1px -1px 0 gray,
+        -1px 1px 0 gray,
+        1px 1px 0 gray;
+  }
+  
+
+
