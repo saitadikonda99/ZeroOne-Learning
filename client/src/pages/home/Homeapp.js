@@ -7,7 +7,7 @@ import {Routes, Route } from 'react-router-dom';
 import CprogrammingApp from '../../courses/c-programming-module/CprogrammingApp';
 import Home from './Home';
 
-const CourseApp = () => {
+const Homeapp = () => {
   return (
     <div className='CourseAppComponent'>
         <div className="CourseAppContainer">
@@ -22,4 +22,4 @@ const CourseApp = () => {
   )
 } 
 
-export default CourseApp
+export default Homeapp
