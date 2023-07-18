@@ -38,7 +38,7 @@ function CNavbar() {
        < Link to='/' className="c-nav-con-but"> 
       <button>
                 <FaLeftLong/>
-                Back to course
+                Back to courses
       </button>
       </Link>
       </div>

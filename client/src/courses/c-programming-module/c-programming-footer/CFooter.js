@@ -1,15 +1,14 @@
 import React from 'react'
-import './CourseFooter.css'
+import './CFooter.css'
 import { Link } from 'react-router-dom'
 
 // imports start here
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FaTelegram } from 'react-icons/fa'
 import { BsGithub } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
 
 
-const CourseFooter = () => {
+const CFooter = () => {
   return (
     <div className='footer-container'>
        <div className="footer-in-one">
@@ -45,4 +44,4 @@ const CourseFooter = () => {
   )
 }
 
-export default CourseFooter
+export default CFooter
