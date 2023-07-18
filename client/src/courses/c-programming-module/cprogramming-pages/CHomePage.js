@@ -38,7 +38,7 @@ const CHomePage = () => {
                     spy ={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}g
+                    duration={500}
                  >
                  <button className='c-prog-buttons-one'>
                     Know More <BsChevronDoubleDown/>
