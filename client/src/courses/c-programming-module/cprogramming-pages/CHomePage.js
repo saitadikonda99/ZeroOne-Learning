@@ -70,7 +70,7 @@ const CHomePage = () => {
 
 
             <div className="c-prog-footer">
-              <CourseFooter/>
+              
             </div>
 
         </div>
