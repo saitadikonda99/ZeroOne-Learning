@@ -37,11 +37,13 @@ function CourseNav() {
                       >
                        <Link to='/'>Courses</Link>
                     </Scroll>
-                  <Link to='/'>Contact</Link>
+                  <Link to='/coming-soon'>Contact</Link>
                 </div>
               </div>
             <div className="nav-button">
+              <Link to='/coming-soon'>
               <button className='nav-button-in'>Join Us</button>
+            </Link>
             </div>
         </div>
   )

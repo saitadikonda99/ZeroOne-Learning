@@ -31,7 +31,7 @@ function CNavbar() {
                 >
                  <Link to='/'>Courses</Link>
               </Scroll>
-            <Link to='/'>Contact</Link>
+            <Link to='/coming-soon'>Contact</Link>
           </div>
         </div>
       <div className="c-nav-con-but">

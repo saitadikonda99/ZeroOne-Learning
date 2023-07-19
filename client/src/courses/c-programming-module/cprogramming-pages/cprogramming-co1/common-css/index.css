@@ -3,14 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+ 
+
+.topic-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .topic-container h1, h3{
     color: rgba(0, 0, 139, 0.957);
 }
 
+.topic-footer h1 {
+    color: white;
+}
+
 .co-sidebar {
-    position: fixed;
-    top: 50%; 
+    position: sticky;
+    top: 70%; 
     left: 17%; 
     width: 28%;
     transform: translate(-50%, -50%);  

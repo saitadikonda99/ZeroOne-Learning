@@ -1,0 +1,15 @@
+.Coming-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vw;
+    border: 2px solid pink;
+    gap: 2vw;
+}
+
+.Coming-container {
+    display: flex;
+    gap: 2vw;
+}
+ 

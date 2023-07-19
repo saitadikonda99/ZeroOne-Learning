@@ -6,11 +6,13 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
 import './Page.css';
 import '../common-css/index.css'
+import CNavbar from '../../../C-programming-nav/Cnavbar';
 
 // import icons here 
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
 import { codeArr } from './Codes';
+import CourseFooter from '../../../../../components/course_footer/CourseFooter';
 
 const Page = () => {
   const handleCp = () => {
@@ -32,6 +34,9 @@ const Page = () => {
 
      return (
                 <div className="topic-container">
+                  <div className="topic-navbar">
+                    <CNavbar/>
+                  </div>
                   <div className="co-sidebar">
                     <CprogrammingSidebar />
                   </div>
@@ -169,6 +174,9 @@ const Page = () => {
                           </button>
                       </div>
                     </div>
+                  </div>
+                  <div className="topic-footer">
+                   <CourseFooter/>
                   </div>
               </div>
   );

@@ -1,0 +1,19 @@
+.not-found-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vw;
+    border: 2px solid pink;
+    gap: 2vw;
+}
+
+.not-found-container {
+    display: flex;
+    gap: 2vw;
+}
+
+.not-found-one {
+    border-right : 2px solid black;
+    padding-right: 1vw;
+}

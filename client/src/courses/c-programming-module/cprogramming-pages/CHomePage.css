@@ -72,6 +72,11 @@
     background-color: white;
 }
 
+.c-prog-buttons-two:hover {
+     color: rebeccapurple;
+     transform: scale(1.1);
+}
+
 .c-prog-topics {
     height: 90vw;
     width: 100%;
@@ -80,6 +85,11 @@
     align-content: center;
     justify-content: center;
     gap: 5vw;
+}
+
+.c-prog-buttons-one:hover {
+    color: rebeccapurple;
+    transform: scale(1.1);
 }
 
 .c-prog-topics-head {

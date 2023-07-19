@@ -8,6 +8,7 @@ import './Page.css'
 import '../Common-css/index.css'
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
+import CNavbar from '../../../C-programming-nav/Cnavbar';
 
 
 import { codeArr } from './Codes';
@@ -33,9 +34,12 @@ function Page() {
 
   return (
         <div className="topic-container">
-          <div className="co-sidebar">
-             <CprogrammingSidebar />
-          </div>  
+           <div className="topic-navbar">
+                    <CNavbar/>
+                  </div>
+                  <div className="co-sidebar">
+                    <CprogrammingSidebar />
+                  </div> 
            <div className="topic-content">
             <div className="topic-content-head">
                 <h1>Increment | decrement operators</h1>
