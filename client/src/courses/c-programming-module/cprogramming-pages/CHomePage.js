@@ -10,6 +10,8 @@ import cimage from '../../../assets/c.png';
 
 // Import other components and modules here
 import Cnavbar from '../C-programming-nav/Cnavbar';
+import CourseFooter from '../../components/course_footer/CourseFooter'; 
+
 
  
 
@@ -68,7 +70,7 @@ const CHomePage = () => {
 
 
             <div className="c-prog-footer">
-
+              <CourseFooter/>
             </div>
 
         </div>
