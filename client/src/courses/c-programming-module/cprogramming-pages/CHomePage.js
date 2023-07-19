@@ -10,8 +10,8 @@ import cimage from '../../../assets/c.png';
 
 // Import other components and modules here
 import Cnavbar from '../C-programming-nav/Cnavbar';
-import CFooter from '../c-programming-footer/CFooter';
 
+ 
 
 const CHomePage = () => {
 
@@ -68,7 +68,7 @@ const CHomePage = () => {
 
 
             <div className="c-prog-footer">
-        <CFooter/>
+
             </div>
 
         </div>
