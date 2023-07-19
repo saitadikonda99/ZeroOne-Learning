@@ -30,7 +30,7 @@
 
 .courseHome-head-one h1 {
     background: linear-gradient(to right, black, blue);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
