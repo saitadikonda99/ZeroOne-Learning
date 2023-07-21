@@ -7,6 +7,9 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
 import './Page.css'
 import '../common-css/index.css'
+import CNavbar from '../../../C-programming-nav/Cnavbar';
+import CourseFooter from '../../../../../components/course_footer/CourseFooter';
+
 
 // import react icons here 
 import { codeArr } from './Codes';
@@ -33,9 +36,10 @@ const copyCode = (index) => {
 
   return (
         <div className="topic-container">
+          <div className="topic-navbar">
+             <CNavbar/>
+               </div>
           <div className="co-sidebar">
-            <div className="sample">
-            </div>
              <CprogrammingSidebar />
           </div>  
            <div className="topic-content">
@@ -103,6 +107,9 @@ const copyCode = (index) => {
                     </p>
              </div>
           </div>
+          <div className="topic-footer">
+                   <CourseFooter/>
+                  </div>
       </div>
   )
 }

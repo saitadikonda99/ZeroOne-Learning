@@ -6,6 +6,8 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CprogrammingSidebar from '../../../cprogramming-components/cprogramming-sidebar/CprogrammingSidebar';
 import './Page.css';
 import '../common-css/index.css';
+import CourseFooter from '../../../../../components/course_footer/CourseFooter';
+import CNavbar from '../../../C-programming-nav/Cnavbar';
 
 // Import icons here
 import { TbCopy } from 'react-icons/tb';
@@ -32,6 +34,9 @@ function Page() {
 
   return (
            <div className="topic-container">
+            <div className="topic-navbar">
+             <CNavbar/>
+               </div>
                   <div className="co-sidebar">
                     <CprogrammingSidebar />
                   </div>
@@ -113,6 +118,9 @@ function Page() {
                     <p> Remember to include the stdio.h header file at the beginning of your program to access the scanf function.</p>
                   </div>
                 </div>
+                <div className="topic-footer">
+                   <CourseFooter/>
+                  </div>
               </div>
   );
 }

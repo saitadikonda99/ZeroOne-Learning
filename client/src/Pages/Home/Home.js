@@ -21,26 +21,24 @@ const CourseHome = () => {
                       <p> Start now for free</p>
                         <h1> Best Academic online learning</h1>
                           <h1>platform</h1>
-                          <div className="courseHome-head-one-button">
-                          <Scroll
-                              activeClass="active"
-                              to="course-home-courses"
-                              spy ={true}
-                              smooth={true}
-                              offset={-70}
-                              duration={500}
-                               >
-                              <button>Explore courses</button>
-                            </Scroll>
-                          </div>
+                            <div className="courseHome-head-one-button">
+                              <Scroll
+                                  activeClass="active"
+                                  to="course-home-courses"
+                                  spy ={true}
+                                  smooth={true}
+                                  offset={-70}
+                                  duration={500}
+                                  >
+                           <button>Explore courses</button>
+                        </Scroll>
                      </div>
-                 <div className="courseHome-head-two">
+                  </div>
+                <div className="courseHome-head-two">
              <div class="courseHome-boxes-one">  <h2> <FaFreeCodeCamp/> Free Courses</h2> </div>
            <div class="courseHome-boxes-two"> <h1> <GrUserExpert/> Expert Instructor </h1> </div>
-        </div>
+         </div>
       </div>   
-
-
         <div className="course-home-courses">
             <div className="course-home-courses-one">
                <h1> Start your learning coding </h1> 
@@ -67,63 +65,49 @@ const CourseHome = () => {
                    </div>
                 </div>
              </div>
-
-
               <div className="about-container">
                 <div className="about-container-in">
                   <h1>The Collab Team with High Technical Skills</h1>
                     <h2>Help You Learn a New Profession</h2>
                 </div>
-
-                <div className="CourseHome-Body-Content-two">
-                      <div className="courseHome-element-one-content">
-                        <div className="courseHome-element-one-content-in">
-                          <span className='number-css'> 01 </span>
-                        </div>
-                          <div className="courseHome-element-one-content-in-one">
-                              <h1>Theoretical Knowledge</h1>
-                            </div>
+                    <div className="CourseHome-Body-Content-two">
+                        <div className="courseHome-element-one-content">
+                           <div className="courseHome-element-one-content-in">
+                             <span className='number-css'> 01 </span>
+                                </div>
+                              <div className="courseHome-element-one-content-in-one">
+                            <h1>Theoretical Knowledge</h1>
+                         </div>
                       </div>
-
-                      <div className="courseHome-element-two-content">
+                    <div className="courseHome-element-two-content">
                       <div className="courseHome-element-two-content-in">
-                      <span className='number-css'> 02 </span>
-                        </div>
-                      <div className="courseHome-element-two-content-in-one">
-                              <h1>Practical Skills</h1>
-                            </div>
-
+                        <span className='number-css'> 02 </span>
+                          </div>
+                            <div className="courseHome-element-two-content-in-one">
+                        <h1>Practical Skills</h1>
                       </div>
-
-                      <div className="courseHome-element-three-content">
-                      <div className="courseHome-element-three-content-in">
-                      <span className='number-css'> 03 </span>
-                        </div>
-                      <div className="courseHome-element-three-content-in-one">
-                              <h1>Work with a Mentor</h1>
+                   </div>
+                  <div className="courseHome-element-three-content">
+                     <div className="courseHome-element-three-content-in">
+                       <span className='number-css'> 03 </span>
+                          </div>
+                             <div className="courseHome-element-three-content-in-one">
+                                <h1>Work with a Mentor</h1>
+                              </div>
                             </div>
-                            </div>
-
-                            <div className="courseHome-element-four-content">
-                      <div className="courseHome-element-four-content-in">
+                          <div className="courseHome-element-four-content">
+                        <div className="courseHome-element-four-content-in">
                       <span className='number-css'> 04 </span>
-                        </div>
+                    </div>
                       <div className="courseHome-element-four-content-in-one">
-                              <h1>Final Test or Project</h1>
-                            </div>
-
-
-                            </div>
-                            </div>
-                            </div>
-
-
-
-
-           
+                        <h1>Final Test or Project</h1>
+                  </div>
+                </div>
+              </div>
+           </div>
         <div className="course-footer-container">
           <CourseFooter/>
-        </div>
+           </div>
     </div>
   )
 }

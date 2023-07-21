@@ -17,20 +17,17 @@ const CHomePage = () => {
 
   return (
     <div className='CHomePageComponent'>
-      
        <div className="c-main-container">
           <div className="c-main-nav-ks">
             <Cnavbar/>
-          </div>
-
-
-            <div className="c-prog-details">
-               <div className="c-prog-img">
+              </div> 
+               <div className="c-prog-details">
+                <div className="c-prog-img">
                   <img src={cimage} alt='c-prog' />
               </div>
-                  <div className="c-prog-content">
-                    <h2> <span>C </span>Road Map</h2>
-                    <h1>Completely beginner-friendly.</h1>
+            <div className="c-prog-content">
+              <h2> <span>C </span>Road Map</h2>
+              <h1>Completely beginner-friendly.</h1>
                  <div className="c-prog-buttons">
                    <Scroll
                     activeClass="active"

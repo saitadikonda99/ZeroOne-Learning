@@ -16,7 +16,6 @@ const Homeapp = () => {
                 <Routes>
                     <Route path='/' element={<Home/>}></Route>
                     <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
-                    
                 </Routes>
             </div>
         </div>

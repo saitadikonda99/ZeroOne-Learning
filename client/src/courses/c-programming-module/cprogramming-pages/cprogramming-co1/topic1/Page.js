@@ -33,21 +33,22 @@ const Page = () => {
   };
 
      return (
-                <div className="topic-container">
-                  <div className="topic-navbar">
-                    <CNavbar/>
+          <div className="topic-container">
+
+            <div className="topic-navbar">
+              <CNavbar/>
+               </div>
+                 <div className="co-sidebar">
+                   <CprogrammingSidebar />
                   </div>
-                  <div className="co-sidebar">
-                    <CprogrammingSidebar />
-                  </div>
-                  <div className="topic-content">
-                    <div className="topic-content-head">
+                <div className="topic-content">
+             <div className="topic-content-head">
                       <h1>Structured-Programming-Paradigm</h1>
                       <p>
                         In this page you will learn about Structured-Programming-Paradigm
                         in detail
                       </p>
-                    </div>
+                  </div>
                     <div className="c1t-common-intro">
                       <p>
                         The structured programming paradigm emphasizes the use of
@@ -60,8 +61,8 @@ const Page = () => {
                     </div>
 
                                             {/* first one */}
-                    <div className="c1t-common-container">
-                      <h3>1. Single Entry, Single Exit (SESE):</h3>
+                <div className="c1t-common-container">
+                    <h3>1. Single Entry, Single Exit (SESE):</h3>
                       <p>
                         Single Entry, Single Exit (SESE): Each block of code should have
                         only one entry point and one exit point, making the program flow
