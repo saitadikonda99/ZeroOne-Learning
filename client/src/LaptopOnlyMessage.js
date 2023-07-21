@@ -6,7 +6,7 @@ const LaptopOnlyMessage = () => (
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '50vh',
+    height: '100vh',
     flexDirection: 'column',
     fontSize: '1rem',
     gap: '1rem',
