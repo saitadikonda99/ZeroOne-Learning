@@ -9,9 +9,11 @@ const LaptopOnlyMessage = () => (
     height: '50vh',
     flexDirection: 'column',
     fontSize: '1rem',
+    gap: '1rem',
    }}>
     <p>This app can only be viewed on laptops</p>
     <p> Thank you 😊</p>
+    <h3>ZeroOne Learning</h3>
   </div>
 );
 
