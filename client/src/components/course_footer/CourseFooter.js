@@ -26,10 +26,7 @@ const CourseFooter = () => {
     </div>
       </div>
         <div className="footer-in-two">
-          <div className="footer-in-names">
-             <p>Designed & Developed By <Link to='https://www.linkedin.com/in/deepakreddygathpa/'> Deepak Reddy Gathpa </Link>&<Link to='https://www.linkedin.com/in/tadikondasaimanikanta/'> Tadikonda Sai Manikanta  </Link> |
-                © Copyrights by ZeroOne . All rights reserved. </p>
-           </div>
+           
              <div className="footer-in-socials">
               <Link to='https://instagram.com/_sai.you' className='footer-in-socials-link'>
                 <AiOutlineInstagram/>
