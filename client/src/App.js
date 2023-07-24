@@ -16,7 +16,13 @@ function App() {
   return (
     <div className="App">
         {isMobileDevice ? (
-           <LaptopOnlyMessage />
+            <Routes>
+            <Route path='/' element={<Home/>}></Route>
+            <Route path='/courses/*' element={<Homeapp/>}></Route>
+            <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
+            <Route path='*' element={<NotFound/>}></Route>
+            <Route path='/coming-soon' element={<Coming/>}></Route>
+          </Routes>
               ) : (
             <Routes>
               <Route path='/' element={<Home/>}></Route>

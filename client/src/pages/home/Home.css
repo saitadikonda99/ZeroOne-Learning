@@ -14,7 +14,8 @@
     display: flex;
     align-items: center;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
+    padding: 4%;
 }
 
 .courseHome-head-one {
@@ -44,9 +45,8 @@
 }
 
 
-
 .courseHome-head-one-button button {
-    padding: 10px;
+    padding: 20px;
     border: 2px solid rgba(27, 43, 218, 0.996);
     border-radius: 10px;
     background-color: rgba(39, 20, 239, 0.996);
@@ -82,7 +82,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1vw;
-
 }
 
 .courseHome-boxes-two {
@@ -94,61 +93,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: .6vw;
+    font-size: .5vw;
 }
 
 
 
 .course-home-courses {
-    height: 30rem;
+    height: 35vw;
     width: 100%;
     display: flex;
     background-color: rgb(255, 255, 255);
+    border: 2px solid pink;
 }
-
-.course-home-courses-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: rgb(21, 0, 128);
-}
-
-.course-home-courses-one > p {
-    color: gray;
-}
-
-.common-course-css {
-    border: .1px solid rgb(209, 203, 203);
-    height: 4vw;
-    width: 15vw;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    text-decoration: none;
-    color: rgb(21, 0, 128);
-    gap: 10px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-    transform: transition .1s;
-}
-
-.common-course-css:hover {
-    transform: scale(1.1);
-}
-
-.course-home-courses-two {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    justify-items: center;
-    align-content: center;
-    gap: 40px;
-}
-
-
 
 
     /* spans start here */
@@ -281,5 +237,166 @@
         1px 1px 0 gray;
   }
   
+.courseHome-reviews {
+    width: 100%;
+    height: 50vw;
+    background-color: white;
+    display: flex;
+}
 
+.courseHome-reviews-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50vw;
+    margin: 0 auto;
+    gap: 4vw;
+}
+
+.courseHome-reviews-one-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    width: 70%;
+    height: 50vw;
+
+}
+
+.courseHome-reviews-one-in p {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.courseHome-reviews-one-in span {
+    color: gold;
+}
+
+.courseHome-reviews-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50vw;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.reviews-two-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50vw;
+    margin: 0 auto;
+    gap: 1vw;
+}
+
+.common-review {
+    height: 10vw;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: .1px solid black;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translateX(-2px);
+    }
+    20%, 80% {
+      transform: translateX(2px);
+    }
+    30%, 50%, 70% {
+      transform: translateX(-5px);
+    }
+    40%, 60% {
+      transform: translateX(5px);
+    }
+  }
+  
+
+.common-review:hover {
+    animation: shake 0.5s;
+  }
+
+ 
+.reviews-two-in-one {
+    margin-right: auto;
+}
+
+.reviews-two-in-two {
+    margin-left: auto;
+}
+
+.reviews-two-in-three {
+    margin-right: auto;
+}
+
+.reviews-two-in-four {
+    margin-left: auto;
+}
+
+.common-review-box {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 1vw;
+}
+
+.common-review-pa {
+    padding-left: 20px;
+}
+
+.common-image img {
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+}
+
+.common-id {
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+    height: 4vw;
+    width: 80%;
+}
+
+
+            /* media queries start here */
+
+
+            /* 1200px */
+
+@media only screen and (max-width: 1000px) {
+   
+
+    }
+
+
+                /* 1000px */
+
+@media only screen and (max-width: 900px) {
+    .courseHome-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+    }
+
+    .courseHome-head-one {
+        margin-right: 0;
+    }
+ }
+    
 
