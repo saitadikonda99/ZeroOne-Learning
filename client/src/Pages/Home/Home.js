@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Link as Scroll } from 'react-scroll';
 import './Home.css';
@@ -11,7 +12,7 @@ import { FaFreeCodeCamp } from 'react-icons/fa';
 import { GrUserExpert } from 'react-icons/gr';
 import { BsFileEarmarkCode } from 'react-icons/bs'
 import sai_img from '../../assets/sai.png'
-import zero_hero from '../../assets/zero-hero.png'
+
 
 const CourseHome = () => {
   return (
@@ -46,42 +47,13 @@ const CourseHome = () => {
            <h1>Our Popular Courses</h1>
             <div className="course-home-courses-in">
                
-              <div className="course-home-courses-one-one course-name-box">
-                <div className="course-home-courses-one-one-in">
-                <Link to='/courses/c-programming'>
-                    <BsFileEarmarkCode/>
-                    </Link>
-                </div>
-
-                <div className="course-home-courses-one-one-out">
-                  <h1>C programming</h1>
-                </div>
-              </div>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
                
-              <div className="course-home-courses-two-two course-name-box">
-              <div className="course-home-courses-one-one-in">
-                    <BsFileEarmarkCode/>
-                </div>
-                <div className="course-home-courses-one-one-out">
-                  <h1>C programming</h1>
-                </div>
-              </div>
-              <div className="course-home-courses-three-three course-name-box">
-              <div className="course-home-courses-one-one-in">
-                    <BsFileEarmarkCode/>
-                </div>
-                <div className="course-home-courses-one-one-out">
-                  <h1>C programming</h1>
-                </div>
-              </div>
-              <div className="course-home-courses-four-four course-name-box">
-              <div className="course-home-courses-one-one-in">
-                    <BsFileEarmarkCode/>
-                </div>
-                <div className="course-home-courses-one-one-out">
-                  <h1>C programming</h1>
-                </div>
-              </div>
+              
+              
             </div>
              </div>
               <div className="about-container">
@@ -212,3 +184,38 @@ const CourseHome = () => {
 }
 
 export default CourseHome
+
+
+const CourseItem = () => {
+  useEffect(() => {
+    const slideUpElements = document.querySelectorAll('.slide-up');
+
+    const observerOptions = {
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    slideUpElements.forEach((element) => {
+      observer.observe(element);
+    });
+  }, []);
+
+  return (
+    <div className="course-home-courses-two-two course-name-box slide-up">
+    <div className="course-home-courses-one-one-in">
+          <BsFileEarmarkCode/>
+      </div>
+      <div className="course-home-courses-one-one-out">
+        <h1>C programming</h1>
+      </div>
+    </div>
+  );
+};

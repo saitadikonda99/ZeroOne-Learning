@@ -147,7 +147,29 @@
     gap: 2vw;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
+    animation: slideUp 0.3s ease-in-out forwards;
 }
+
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.slide-up {
+    animation: slideUp 0.3s ease-in-out forwards;
+    animation-play-state: paused;
+  }
+  
+.animate {
+    animation-play-state: running;
+}
+  
 
 .course-name-box:hover {
     background-color: blue;
@@ -369,26 +391,25 @@
     transition: transform 0.3s ease-in-out;
 }
 
-@keyframes shake {
+  @keyframes shake {
     10%, 90% {
-      transform: translateX(-2px);
-    }
-    20%, 80% {
-      transform: translateX(2px);
-    }
-    30%, 50%, 70% {
       transform: translateX(-5px);
     }
-    40%, 60% {
+    20%, 80% {
       transform: translateX(5px);
+    }
+    30%, 50%, 70% {
+      transform: translateX(-10px);
+    }
+    40%, 60% {
+      transform: translateX(10px);
     }
   }
   
-
-.common-review:hover {
+  .common-review:hover {
     animation: shake 0.5s;
   }
-
+  
  
 .reviews-two-in-one {
     margin-right: auto;
