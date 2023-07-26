@@ -12,6 +12,10 @@ import CourseNav from '../../components/course_nav/CourseNav';
 import { FaFreeCodeCamp } from 'react-icons/fa';
 import { GrUserExpert } from 'react-icons/gr';
 import { BsFileEarmarkCode } from 'react-icons/bs'
+import { FaJava } from 'react-icons/fa';
+import { BsGit } from 'react-icons/bs';
+import { FaPython } from 'react-icons/fa';
+
 import sai_img from '../../assets/sai.png'
 import mohan_img from '../../assets/mohan.png'
 import sundar_img from '../../assets/sundar.png'
@@ -50,10 +54,10 @@ const CourseHome = () => {
            <h1>Our Popular Courses</h1>
             <div className="course-home-courses-in">
                
-            <CourseItem />
-            <CourseItem />
-            <CourseItem />
-            <CourseItem />
+            <CourseItem course_name = "C"/>
+            <CourseItem course_name = "git"/>
+            <CourseItem course_name = "python"/>
+            <CourseItem course_name = "java"/>
                
               
               
@@ -189,10 +193,9 @@ const CourseHome = () => {
 export default CourseHome
 
 
-const CourseItem = () => {
+const CourseItem = ({ course_name }) => {
   useEffect(() => {
     const slideUpElements = document.querySelectorAll('.slide-up');
-
     const observerOptions = {
       threshold: 0.5,
     };
@@ -215,8 +218,36 @@ const CourseItem = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-      navigate('courses/c-programming');
+      switch (course_name) {
+        case 'C':
+          navigate('courses/c-programming');
+          break;
+        case 'git':
+          navigate('/coming-soon');
+          break;
+        case 'python':
+          navigate('/coming-soon');
+          break;
+        case 'java':
+          navigate('/coming-soon');
+          break;
+        default:
+          navigate('/coming-soon')
+          break;
+      }
     };
+
+    let icon = null;
+
+    if (course_name === 'C') {
+      icon = <BsFileEarmarkCode />;
+    } else if (course_name === 'git') {
+      icon = <BsGit />;
+    } else if (course_name === 'python') {
+      icon = <FaPython />;
+    } else if (course_name === 'java') {
+      icon = <FaJava />;
+    }
 
     return (
       <div
@@ -224,7 +255,7 @@ const CourseItem = () => {
         onClick={handleClick}
         style={{ cursor: 'pointer' }} >
         <div className="course-home-courses-one-one-in">
-          <BsFileEarmarkCode />
+          { icon }
         </div>
         <div className="course-home-courses-one-one-out">
           <h1>C programming</h1>

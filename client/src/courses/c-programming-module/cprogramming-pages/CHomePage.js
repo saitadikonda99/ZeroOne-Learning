@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { AiOutlineDoubleRight } from 'react-icons/ai';
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import { PiHandTapThin } from 'react-icons/pi';
+import { BsGit } from 'react-icons/bs';
 
 import './CHomePage.css';
 import cimage from '../../../assets/c.png';
