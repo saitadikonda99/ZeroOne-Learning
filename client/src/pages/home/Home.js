@@ -258,7 +258,7 @@ const CourseItem = ({ course_name }) => {
           { icon }
         </div>
         <div className="course-home-courses-one-one-out">
-          <h1>C programming</h1>
+          <h1>{ course_name }</h1>
         </div>
       </div>
     );
