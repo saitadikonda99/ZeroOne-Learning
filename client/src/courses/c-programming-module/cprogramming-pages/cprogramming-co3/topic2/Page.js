@@ -8,6 +8,8 @@ import './Page.css'
 import '../common-css/index.css'
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
+import CourseFooter from '../../../../../components/course_footer/CourseFooter';
+import CNavbar from '../../../C-programming-nav/Cnavbar';
 
 
 import { codeArr } from './Codes';
@@ -32,6 +34,10 @@ function Page() {
 
   return (
         <div className="topic-container">
+          <div className="topic-navbar">
+                    <CNavbar/>
+                  </div>
+                  <div className="topic-main"> 
           <div className="co-sidebar">
              <CprogrammingSidebar />
           </div>  
@@ -94,6 +100,10 @@ function Page() {
     <p>Keep in mind that the command line arguments are always passed as strings, so if you need to convert them to other data types (such as integers or floats), you'll need to use functions like atoi or atof to perform the conversion.</p>
       </div>
           </div>
+          </div>
+                <div className="topic-footer">
+                   <CourseFooter/>
+                  </div>
       </div>
   )
 }

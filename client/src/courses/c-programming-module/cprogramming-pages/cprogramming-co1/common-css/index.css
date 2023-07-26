@@ -8,6 +8,7 @@
 .topic-container {
     display: flex;
     flex-direction: column;
+    gap: 2vw;
 }
 
 .topic-container h1, h3{
@@ -18,12 +19,16 @@
     color: white;
 }
 
+.topic-main {
+    display: flex;
+}
+
 .co-sidebar {
     position: sticky;
-    top: 70%; 
-    left: 17%; 
+    top: 20%; 
+    left: 5%; 
     width: 28%;
-    transform: translate(-50%, -50%);  
+    height: fit-content;
 }
 
 .topic-content {

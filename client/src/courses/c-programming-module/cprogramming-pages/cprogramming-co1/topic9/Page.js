@@ -37,6 +37,7 @@ function Page() {
             <div className="topic-navbar">
              <CNavbar/>
                </div>
+               <div className="topic-main"> 
                   <div className="co-sidebar">
                     <CprogrammingSidebar />
                   </div>
@@ -117,6 +118,7 @@ function Page() {
                     <p>It's important to ensure that the format specifiers match the data types of the variables being used to store the input. Additionally, error handling should be implemented to handle cases where the user enters invalid input.  </p>
                     <p> Remember to include the stdio.h header file at the beginning of your program to access the scanf function.</p>
                   </div>
+      </div>
                 </div>
                 <div className="topic-footer">
                    <CourseFooter/>

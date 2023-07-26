@@ -38,6 +38,7 @@ const copyCode = (index) => {
           <div className="topic-navbar">
              <CNavbar/>
                </div>
+               <div className="topic-main"> 
           <div className="co-sidebar">
              <CprogrammingSidebar />
           </div>  
@@ -128,6 +129,8 @@ const copyCode = (index) => {
                languages.
             </p>
           </div>
+      </div>
+
       </div>
       <div className="topic-footer">
                    <CourseFooter/>

@@ -10,6 +10,8 @@ import './Page.css';
 import '../Common-css/index.css';
 import { codeArr } from './Codes';
 import videoUrl from '../../../../../assets/stack.mp4'
+import CourseFooter from '../../../../../components/course_footer/CourseFooter';
+import CNavbar from '../../../C-programming-nav/Cnavbar';
 
 function Page() {
   const handleCp = () => {
@@ -30,6 +32,10 @@ function Page() {
 
   return (
         <div className="topic-container">
+          <div className="topic-navbar">
+                    <CNavbar/>
+                  </div>
+                  <div className="topic-main"> 
           <div className="co-sidebar">
              <CprogrammingSidebar />
           </div>  
@@ -107,6 +113,10 @@ function Page() {
         </div>
 
           </div>
+          </div>
+                <div className="topic-footer">
+                   <CourseFooter/>
+                  </div>
       </div>
   )
 }

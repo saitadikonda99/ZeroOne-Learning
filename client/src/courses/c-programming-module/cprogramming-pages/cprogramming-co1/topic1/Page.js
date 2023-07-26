@@ -34,15 +34,15 @@ const Page = () => {
 
      return (
           <div className="topic-container">
-
             <div className="topic-navbar">
               <CNavbar/>
                </div>
+               <div className="topic-main">
                  <div className="co-sidebar">
                    <CprogrammingSidebar />
                   </div>
                 <div className="topic-content">
-             <div className="topic-content-head">
+                <div className="topic-content-head">
                       <h1>Structured-Programming-Paradigm</h1>
                       <p>
                         In this page you will learn about Structured-Programming-Paradigm
@@ -175,11 +175,12 @@ const Page = () => {
                           </button>
                       </div>
                     </div>
-                  </div>
-                  <div className="topic-footer">
+                </div>
+            </div>
+            <div className="topic-footer">
                    <CourseFooter/>
                   </div>
-              </div>
+          </div>
   );
 };
 

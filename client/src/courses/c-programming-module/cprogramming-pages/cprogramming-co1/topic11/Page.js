@@ -37,6 +37,7 @@ function Page() {
           <div className="topic-navbar">
              <CNavbar/>
                </div>
+               <div className="topic-main"> 
           <div className="co-sidebar">
              <CprogrammingSidebar />
           </div>  
@@ -184,6 +185,7 @@ function Page() {
              conditions, making your code more flexible and dynamic.
           </p>
         </div>
+      </div>
       </div>
       <div className="topic-footer">
                    <CourseFooter/>

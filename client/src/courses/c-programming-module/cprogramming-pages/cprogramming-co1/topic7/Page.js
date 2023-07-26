@@ -37,6 +37,7 @@ const copyCode = (index) => {
           <div className="topic-navbar">
              <CNavbar/>
                </div>
+               <div className="topic-main"> 
           <div className="co-sidebar">
              <CprogrammingSidebar />
           </div>  
@@ -76,6 +77,7 @@ const copyCode = (index) => {
             <p>Additionally, modularization helps in debugging and maintenance. If there is an issue with a specific functionality, you can focus on that particular function without worrying about the rest of the code. It promotes code organization and makes it easier to locate and fix errors.</p>
           </div>
           </div>
+      </div>
       </div>
       <div className="topic-footer">
                    <CourseFooter/>

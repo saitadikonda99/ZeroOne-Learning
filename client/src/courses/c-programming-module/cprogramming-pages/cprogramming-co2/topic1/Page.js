@@ -9,7 +9,7 @@ import '../Common-css/index.css'
 import { TbCopy } from "react-icons/tb";
 import { LuCopyCheck } from "react-icons/lu";
 import CNavbar from '../../../C-programming-nav/Cnavbar';
-
+import CourseFooter from '../../../../../components/course_footer/CourseFooter';
 
 import { codeArr } from './Codes';
 
@@ -37,6 +37,7 @@ function Page() {
            <div className="topic-navbar">
                     <CNavbar/>
                   </div>
+                  <div className="topic-main">
                   <div className="co-sidebar">
                     <CprogrammingSidebar />
                   </div> 
@@ -168,6 +169,10 @@ function Page() {
                       </button>
                    </div>  
           </div>
+          </div>
+          <div className="topic-footer">
+                   <CourseFooter/>
+                  </div>
       </div>
   )
 }

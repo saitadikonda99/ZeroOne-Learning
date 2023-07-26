@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Link as Scroll } from 'react-scroll';
@@ -12,6 +13,8 @@ import { FaFreeCodeCamp } from 'react-icons/fa';
 import { GrUserExpert } from 'react-icons/gr';
 import { BsFileEarmarkCode } from 'react-icons/bs'
 import sai_img from '../../assets/sai.png'
+import mohan_img from '../../assets/mohan.png'
+import sundar_img from '../../assets/sundar.png'
 
 
 const CourseHome = () => {
@@ -131,30 +134,30 @@ const CourseHome = () => {
                       <div className="reviews-two-in-two common-review">
                       <div className="review-two-two common-review-box">
                           <div className="review-two-img common-image">
-                            <img src={sai_img} alt="sai" />
+                            <img src={mohan_img} alt="mohan" />
                           </div>
                           <div className="review-two-id common-id">
-                            <h4>Sai tadikonda </h4>
-                            <p>@saitadikonda99</p>
+                            <h4> Mohan Rao </h4>
+                            <p>@mohanrao1319</p>
                           </div>
                         </div>
                         <div className="review-two-two common-review-pa">
-                          <p>The zeroOne is the best thing that happened to me and my career ❤️</p>
+                          <p>zeroOne has been an absolute game-changer for my career, and I can't imagine life without it!</p>
                         </div>
                       </div>
 
                       <div className="reviews-two-in-three common-review">
                       <div className="review-three-three common-review-box">
                           <div className="review-three-img common-image">
-                            <img src={sai_img} alt="sai" />
+                            <img src={sundar_img} alt="sundar" />
                           </div>
                           <div className="review-three-id common-id">
-                            <h4>Sai tadikonda </h4>
-                            <p>@saitadikonda99</p>
+                            <h4> Sundar </h4>
+                            <p>@sundar</p>
                           </div>
                         </div>
                         <div className="review-three-two common-review-pa">
-                          <p>The zeroOne is the best thing that happened to me and my career ❤️</p>
+                          <p>Thanks to zeroOne, my productivity and career growth have skyrocketed! </p>
                         </div>
                       </div>
 
@@ -169,7 +172,7 @@ const CourseHome = () => {
                           </div>
                         </div>
                         <div className="review-four-two common-review-pa">
-                          <p>The zeroOne is the best thing that happened to me and my career ❤️</p>
+                          <p>zeroOne's seamless integration and intuitive features have transformed my career workflow completely!</p>
                         </div>
                       </div>
                        
@@ -208,14 +211,27 @@ const CourseItem = () => {
     });
   }, []);
 
-  return (
-    <div className="course-home-courses-two-two course-name-box slide-up">
-    <div className="course-home-courses-one-one-in">
-          <BsFileEarmarkCode/>
+  const YourComponent = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate('courses/c-programming');
+    };
+
+    return (
+      <div
+        className="course-home-courses-two-two course-name-box slide-up"
+        onClick={handleClick}
+        style={{ cursor: 'pointer' }} >
+        <div className="course-home-courses-one-one-in">
+          <BsFileEarmarkCode />
+        </div>
+        <div className="course-home-courses-one-one-out">
+          <h1>C programming</h1>
+        </div>
       </div>
-      <div className="course-home-courses-one-one-out">
-        <h1>C programming</h1>
-      </div>
-    </div>
-  );
+    );
+  };
+
+  return <YourComponent />;
 };

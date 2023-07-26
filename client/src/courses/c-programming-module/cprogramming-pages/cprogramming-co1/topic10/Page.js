@@ -15,6 +15,7 @@ function Page() {
           <div className="topic-navbar">
              <CNavbar/>
                </div>
+               <div className="topic-main"> 
           <div className="co-sidebar">
              <CprogrammingSidebar />
           </div>  
@@ -25,6 +26,7 @@ function Page() {
                    in detail
                 </p>
             </div>
+      </div>
              
           </div>
           <div className="topic-footer">

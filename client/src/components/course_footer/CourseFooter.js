@@ -15,18 +15,16 @@ const CourseFooter = () => {
        <div className="footer-in-one">
         <div className="footer-in-one-one"> 
           <div className="footer-in-logo">
-            
             <h1>ZeroOne Learning</h1>
               </div>
                 <div className="footer-in-links">
                    <Link to='https://instagram.com/' className='gmail'>
                     zeroone.learning.com
                    </Link>
-    </div>
-    </div>
-      </div>
-        <div className="footer-in-two">
-           
+                </div>
+             </div>
+          </div>
+          <div className="footer-in-two">
              <div className="footer-in-socials">
               <Link to='https://instagram.com/_sai.you' className='footer-in-socials-link'>
                 <AiOutlineInstagram/>
