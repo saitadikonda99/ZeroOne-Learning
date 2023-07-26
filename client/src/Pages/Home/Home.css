@@ -7,7 +7,8 @@
 .CourseHomeComponent {
     width: 100%;
     height: fit-content;
-    background-color: rgb(253, 248, 250);
+    background-color: rgb(229, 249, 255);
+
 }
 
 .courseHome-container {
@@ -15,19 +16,22 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    padding: 4%;
+    background-image: url(../../assets/zero-hero.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 100vh;
 }
 
 .courseHome-head-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: auto;
     align-items: center;
-    width: 80%;
+    width: 60%;
     height: 50vw;
     font-size: 2vw;
 }
+
 
 .courseHome-head-one h1 {
     background: linear-gradient(to right, black, blue);
@@ -54,6 +58,14 @@
     font-size: 1.2c;
     font-weight: 500;
     cursor: pointer;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.courseHome-head-one-button button:hover {
+    background-color: rgb(242, 251, 254);
+    border: 2px solid blue;
+    color: blue;
 }
 
 .courseHome-head-two {
@@ -61,13 +73,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    gap: 10vw;
-    width: 50%;
-    height: 40vw;
-    background-image: url(../../assets/zero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    gap: 5vw;
+    width: 40%;
+    height: 50vw;
+    padding: 20px;
 }
 
 
@@ -76,7 +85,7 @@
     height: 5vw;
     border: .1px solid gray;
     background-color: white;
-    margin-bottom: 20%;
+    margin-bottom: 40%;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -87,25 +96,78 @@
 .courseHome-boxes-two {
     width: 100%;
     height: 5vw;
-    border: .1px solid gray;
+    border: .1px solid rgb(224, 250, 252);
     background-color: white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: .5vw;
+    margin-bottom: 20%;
 }
 
 
 
 .course-home-courses {
-    height: 35vw;
+    height: 50vw;
     width: 100%;
     display: flex;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid pink;
+    background-color: rgb(245, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    font-size: 1.5vw;
+    padding: 20px;
 }
 
+.course-home-courses a {
+    color: black;
+}
+
+
+.course-home-courses-in {
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.course-name-box {
+    height: 20vw;
+    width: 20%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    gap: 2vw;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.course-name-box:hover {
+    background-color: blue;
+    color: white;
+}
+
+.course-home-courses-one-one-in {
+    height: 40%;
+    width: 40%;
+    border: .1px solid white;
+    border-radius: 20px;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
 
     /* spans start here */
 
@@ -240,7 +302,7 @@
 .courseHome-reviews {
     width: 100%;
     height: 50vw;
-    background-color: white;
+    background-color: rgb(245, 251, 251);
     display: flex;
 }
 
