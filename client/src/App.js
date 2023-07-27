@@ -20,7 +20,7 @@ function App() {
             <Route path='/' element={<Home/>}></Route>
             <Route path='/courses/*' element={<Homeapp/>}></Route>
             <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
-            <Route path='*' element={<NotFound/>}></Route>
+            <Route component={NotFound} /> 
             <Route path='/coming-soon' element={<Coming/>}></Route>
           </Routes>
               ) : (
@@ -28,12 +28,12 @@ function App() {
               <Route path='/' element={<Home/>}></Route>
               <Route path='/courses/*' element={<Homeapp/>}></Route>
               <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
-              <Route path='*' element={<NotFound/>}></Route>
+              <Route component={NotFound} /> 
               <Route path='/coming-soon' element={<Coming/>}></Route>
             </Routes>
       )}
 
-{/* <Routes>
+          { /* <Routes>
               <Route path='/' element={<Home/>}></Route>
               <Route path='/courses/*' element={<Homeapp/>}></Route>
               <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>

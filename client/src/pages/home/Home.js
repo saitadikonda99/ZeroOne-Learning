@@ -15,10 +15,10 @@ import { FaJava } from 'react-icons/fa';
 import { BsGit } from 'react-icons/bs';
 import { FaPython } from 'react-icons/fa';
 
-import sai_img from '../../assets/sai.png'
+
 import mohan_img from '../../assets/mohan.png'
 import sundar_img from '../../assets/sundar.png'
-import sravanthi_img from '../../assets/sravanthi.png'
+import hansini_img from '../../assets/hansini.png'
 
 
 const CourseHome = () => {
@@ -72,7 +72,7 @@ const CourseHome = () => {
                              <span className='number-css'> 01 </span>
                                 </div>
                               <div className="courseHome-element-one-content-in-one">
-                            <h1>Theoretical Knowledge</h1>
+                            <h1>knowledge</h1>
                          </div>
                       </div>
                     <div className="courseHome-element-two-content">
@@ -121,7 +121,7 @@ const CourseHome = () => {
                       <div className="reviews-two-in-one common-review">
                         <div className="review-one-one common-review-box">
                           <div className="review-one-img common-image">
-                            <img src={sravanthi_img} alt="sai" />
+                            <img src={ hansini_img } alt="sai" />
                           </div>
                           <div className="review-one-id common-id">
                             <h4> hansini </h4>
@@ -166,7 +166,7 @@ const CourseHome = () => {
                       <div className="reviews-two-in-four common-review">
                       <div className="review-four-four common-review-box">
                           <div className="review-four-img common-image">
-                            <img src={ sravanthi_img } alt="sai" />
+                            <img src={ hansini_img } alt="sai" />
                           </div>
                           <div className="review-four-id common-id">
                             <h4> Sravanthi </h4>
