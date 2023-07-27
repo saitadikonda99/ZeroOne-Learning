@@ -10,7 +10,7 @@ import './Cnavbar.css'
 function CNavbar() {
   return (
     <div className="c-nav-container">
-    <div className="nav-logo">
+     <div className="nav-logo">
       <div className="nav-logo-head">
        <FiCode/>
          </div>
@@ -31,7 +31,7 @@ function CNavbar() {
                 >
                  <Link to='/'>Courses</Link>
               </Scroll>
-            <Link to='https://t.me/+HbEkpTHAa_w4NTM1'>Contact</Link>
+            <Link to='https://t.me/+HbEkpTHAa_w4NTM1 '>Contact</Link>
           </div>
         </div>
       <div className="c-nav-con-but">

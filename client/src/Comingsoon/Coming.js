@@ -11,8 +11,8 @@ function Coming() {
           </div>
              <div className="Coming-three">
              <h3> ZeroOne Learning  </h3>
-        </div>
-    </div>
+          </div>
+      </div>
   )
 }
 

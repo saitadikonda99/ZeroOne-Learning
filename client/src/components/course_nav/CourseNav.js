@@ -41,9 +41,9 @@ function CourseNav() {
                 </div>
               </div>
             <div className="nav-button">
-              <Link to='https://t.me/+HbEkpTHAa_w4NTM1'>
-              <button className='nav-button-in'>Join Us</button>
-            </Link>
+             <Link to='https://t.me/+HbEkpTHAa_w4NTM1'>
+               <button className='nav-button-in'>Join Us</button>
+                </Link>
             </div>
         </div>
   )

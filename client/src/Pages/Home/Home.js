@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Link as Scroll } from 'react-scroll';
 import './Home.css';
 
@@ -19,6 +18,7 @@ import { FaPython } from 'react-icons/fa';
 import sai_img from '../../assets/sai.png'
 import mohan_img from '../../assets/mohan.png'
 import sundar_img from '../../assets/sundar.png'
+import sravanthi_img from '../../assets/sravanthi.png'
 
 
 const CourseHome = () => {
@@ -59,8 +59,6 @@ const CourseHome = () => {
             <CourseItem course_name = "python"/>
             <CourseItem course_name = "java"/>
                
-              
-              
             </div>
              </div>
               <div className="about-container">
@@ -123,11 +121,11 @@ const CourseHome = () => {
                       <div className="reviews-two-in-one common-review">
                         <div className="review-one-one common-review-box">
                           <div className="review-one-img common-image">
-                            <img src={sai_img} alt="sai" />
+                            <img src={sravanthi_img} alt="sai" />
                           </div>
                           <div className="review-one-id common-id">
-                            <h4>Sai tadikonda </h4>
-                            <p>@saitadikonda99</p>
+                            <h4> hansini </h4>
+                            <p> @hansini </p>
                           </div>
                         </div>
                         <div className="review-one-two common-review-pa">
@@ -142,7 +140,7 @@ const CourseHome = () => {
                           </div>
                           <div className="review-two-id common-id">
                             <h4> Mohan Rao </h4>
-                            <p>@mohanrao1319</p>
+                            <p>@mohan_1319</p>
                           </div>
                         </div>
                         <div className="review-two-two common-review-pa">
@@ -168,20 +166,19 @@ const CourseHome = () => {
                       <div className="reviews-two-in-four common-review">
                       <div className="review-four-four common-review-box">
                           <div className="review-four-img common-image">
-                            <img src={sai_img} alt="sai" />
+                            <img src={ sravanthi_img } alt="sai" />
                           </div>
                           <div className="review-four-id common-id">
-                            <h4>Sai tadikonda </h4>
-                            <p>@saitadikonda99</p>
+                            <h4> Sravanthi </h4>
+                            <p>@Sravanthi </p>
                           </div>
                         </div>
                         <div className="review-four-two common-review-pa">
                           <p>zeroOne's seamless integration and intuitive features have transformed my career workflow completely!</p>
                         </div>
-                      </div>
-                       
+                      </div> 
                   </div>
-            </div>
+              </div>
           </div>
         <div className="course-footer-container">
           <CourseFooter/>
