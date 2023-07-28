@@ -237,4 +237,10 @@
         height: 80vw;
         width: 60vw;
     }
+
+     
+}
+
+.c-prog-footer {
+    border: 2px solid red;
 }
