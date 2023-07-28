@@ -15,6 +15,7 @@ import CourseFooter from '../../../components/course_footer/CourseFooter'
  
 
 const CHomePage = () => {
+  
 
   return (
     <div className='CHomePageComponent'>

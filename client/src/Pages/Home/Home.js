@@ -54,7 +54,7 @@ const CourseHome = () => {
            <h1>Our Popular Courses</h1>
             <div className="course-home-courses-in">
                
-            <CourseItem course_name = "C"/>
+            <CourseItem course_name = "C" />
             <CourseItem course_name = "git"/>
             <CourseItem course_name = "python"/>
             <CourseItem course_name = "java"/>
@@ -191,6 +191,9 @@ export default CourseHome
 
 
 const CourseItem = ({ course_name }) => {
+
+
+
   useEffect(() => {
     const slideUpElements = document.querySelectorAll('.slide-up');
     const observerOptions = {
@@ -232,6 +235,7 @@ const CourseItem = ({ course_name }) => {
           navigate('/coming-soon')
           break;
       }
+      window.scrollTo(0, 0); // scroll to top of page
     };
 
     let icon = null;
