@@ -1,14 +1,15 @@
 
 .CprogrammingSidebarComponent {
-    height: 100vh;
+    height: fit-content;
+
 }
 
 .CprogrammingSidebarContainer {
     border: 1px solid rgb(192, 190, 190);
     border-radius: 10px;
     background-color: rgb(252, 249, 249);
-    margin-top: 60px;
 }
+
 .co-header {
     padding: 10px 0px 10px 0px;
     display: flex;
@@ -17,6 +18,7 @@
     width: 100%;
     border-bottom: 1px solid rgb(192, 190, 190); ;
 }
+
 .co-header h2 {
     font-size: 1.2vw;
 }

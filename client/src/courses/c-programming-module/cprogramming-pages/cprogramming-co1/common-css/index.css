@@ -73,3 +73,39 @@
     flex-direction: column;
     gap: 2vw;
 }
+
+
+@media only screen and (max-width: 900px) {
+
+     .topic-main {
+        flex-direction: column;
+        gap: 2vw;
+        height: fit-content;
+        padding: 10%;
+        width: 100%;
+     }
+
+     .co-sidebar {
+        position: relative;
+        left: 25%;
+        width: 50%;
+     }
+     
+     .topic-content { 
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .topic-main {
+        padding: 15%;
+        gap: 5vw;
+    }
+
+    .co-sidebar {
+        position: relative;
+        left: 10%;
+        width: 80%;
+     }
+}

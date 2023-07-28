@@ -47,11 +47,11 @@ a {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 3vw;
+
 }
 
 .nav-logo-head {
-    font-size: 4vw;
+    font-size: 1.5rem;
     font-weight: 600;
     color: rgb(21, 0, 128);
     margin-top: auto;
@@ -156,3 +156,14 @@ a {
     padding:10px 30px;
 }
  
+
+@media only screen and (max-width: 900px) {
+
+    .nav-logo {
+        font-size: 3vw;
+    }
+
+    .nav-logo-head {
+        font-size: 4vw;
+    }
+}
