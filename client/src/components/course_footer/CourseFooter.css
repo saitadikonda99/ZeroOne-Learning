@@ -77,3 +77,38 @@
     text-decoration: none;
     gap: 10px;
 }
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .footer-container {
+        height: 60vw;
+        justify-content: normal;
+        align-items: normal;
+        
+    }
+
+    .footer-in-one {
+        font-size: 2vw;
+        align-items: normal;
+        justify-content: normal;
+        height: 50vw;
+    }
+
+    .footer-in-two {
+        height: fit-content;
+    }
+
+    .telegram {
+        font-size: 15px;
+    }
+    
+    .github {
+        font-size: 15px;
+    }
+
+    .instagram {
+        font-size: 15px;
+    }
+}

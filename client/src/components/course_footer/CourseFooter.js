@@ -27,7 +27,7 @@ const CourseFooter = () => {
           <div className="footer-in-two">
              <div className="footer-in-socials">
               <Link to='https://instagram.com/_sai.you' className='footer-in-socials-link'>
-                <AiOutlineInstagram/>
+                <AiOutlineInstagram className='instagram'/>
                  </Link>
                   <Link to='https://t.me/+HbEkpTHAa_w4NTM1' className='footer-in-socials-link'>
                     <FaTelegram className='telegram'/>
