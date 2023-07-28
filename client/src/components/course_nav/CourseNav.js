@@ -12,14 +12,8 @@ function CourseNav() {
   const [size, setSize] = useState(window.innerWidth)
 
   const toggleNav = () => {
-    if( isopen === true ) {
-      setIsopen(false)
-    } else {
-      setIsopen(true)
-    }
+     setIsopen(!isopen)
   }
-
-
 
   useEffect(() => {
     const changeWidth = () => {
@@ -64,7 +58,7 @@ function CourseNav() {
                     duration={500}
                     onClick={() => setIsopen(false)}
                       >
-                       <Link to='/'>Home</Link>
+                       Home 
                     </Scroll>
 
 
@@ -80,10 +74,8 @@ function CourseNav() {
                     duration={500}
                     onClick={() => setIsopen(false)}
                       >
-                       <Link to='/'>Courses</Link>
+                   Courses 
                     </Scroll>
-
-
                       </li>
                       <li><Link to='https://t.me/+HbEkpTHAa_w4NTM1'>Contact</Link></li>
                     </ul>

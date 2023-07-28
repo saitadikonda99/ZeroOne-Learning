@@ -46,8 +46,8 @@ const CourseHome = () => {
                      </div>
                   </div>
                 <div className="courseHome-head-two">
-             <div class="courseHome-boxes-one">  <h2> <FaFreeCodeCamp/> Free Courses</h2> </div>
-           <div class="courseHome-boxes-two"> <h1> <GrUserExpert/> Expert Instructor </h1> </div>
+             <div className="courseHome-boxes-one">  <h2> <FaFreeCodeCamp/> Free Courses</h2> </div>
+           <div className="courseHome-boxes-two"> <h1> <GrUserExpert/> Expert Instructor </h1> </div>
          </div>
       </div>   
         <div className="course-home-courses">

@@ -40,4 +40,21 @@
     background-color: red;
 }
 
+@media only screen and (max-width:900px) {
+    .c-nav-con-but a {
+        text-decoration: none;
+    }
+    
+    .c-nav-con-but button {
+        padding: 1px;
+        background-color: transparent;
+        color: white;
+        font-size: 3vw;
+        font-weight: bold;
+        display: flex;
+        gap: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+}
 

@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
         {isMobileDevice ? (
-          <Router scrollToTop={true}> 
+         
             <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/courses/*' element={<Homeapp/>}></Route>
@@ -25,7 +25,6 @@ function App() {
             <Route component={NotFound} /> 
             <Route path='/coming-soon' element={<Coming/>}></Route>
           </Routes>
-          </Router>
               ) : (
             <Routes>
               <Route path='/' element={<Home/>}></Route>
