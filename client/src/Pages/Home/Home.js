@@ -18,7 +18,7 @@ import { FaPython } from 'react-icons/fa';
 
 import mohan_img from '../../assets/mohan.png'
 import sundar_img from '../../assets/sundar.png'
-import hansini_img from '../../assets/hansini.png'
+import harini_img from '../../assets/harini.png'
 
 
 const CourseHome = () => {
@@ -121,11 +121,11 @@ const CourseHome = () => {
                       <div className="reviews-two-in-one common-review">
                         <div className="review-one-one common-review-box">
                           <div className="review-one-img common-image">
-                            <img src={ hansini_img } alt="sai" />
+                            <img src={ harini_img } alt="sai" />
                           </div>
                           <div className="review-one-id common-id">
-                            <h4> hansini </h4>
-                            <p> @hansini </p>
+                            <h4> harini </h4>
+                            <p> @harini </p>
                           </div>
                         </div>
                         <div className="review-one-two common-review-pa">
@@ -166,11 +166,11 @@ const CourseHome = () => {
                       <div className="reviews-two-in-four common-review">
                       <div className="review-four-four common-review-box">
                           <div className="review-four-img common-image">
-                            <img src={ hansini_img } alt="sai" />
+                            <img src={ harini_img } alt="sai" />
                           </div>
                           <div className="review-four-id common-id">
-                            <h4> Sravanthi </h4>
-                            <p>@Sravanthi </p>
+                            <h4> abhiram </h4>
+                            <p>@abhiram </p>
                           </div>
                         </div>
                         <div className="review-four-two common-review-pa">

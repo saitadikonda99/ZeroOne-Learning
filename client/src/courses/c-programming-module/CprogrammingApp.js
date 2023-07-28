@@ -52,7 +52,7 @@ import Co4topic11page from '../c-programming-module/cprogramming-pages/cprogramm
 const CprogrammingApp = () => {
   const topics = [
     // CO1 - Introduction to C Programming
-    { name: 'Home', path: '', component: CHomePage },
+    { name: 'Home', path: '', component: CHomePage }, 
     { name: 'Structured Programming Paradigm', path: 'co1/structured-programming-paradigm', component: Co1topic1page },
     { name: 'Designing Algorithms', path: 'co1/designing-algorithms', component: Co1topic2page },
     { name: 'Designing Flowcharts', path: 'co1/designing-flowcharts', component: Co1topic3page },
