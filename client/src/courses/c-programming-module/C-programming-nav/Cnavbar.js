@@ -35,7 +35,7 @@ function CNavbar() {
          </div>
            <div className="nav-logo-body">
             <h1>zeroOne</h1>
-        </div>
+        </div> 
     </div>
 
 
@@ -60,7 +60,9 @@ function CNavbar() {
                     duration={500}
                     onClick={() => setIsopen(false)}
                       >
-                       Home 
+                      <Link to='/'>  
+                      Home
+                      </Link>
                     </Scroll>
 
 
@@ -90,6 +92,7 @@ function CNavbar() {
       </button>
       </Link>
       </div>
+
                     </div>
                  </div>
               </div>
