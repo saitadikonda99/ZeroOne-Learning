@@ -4,8 +4,6 @@ import { useEffect } from 'react';
 import { Link as Scroll } from 'react-scroll';
 import './Home.css';
 
-
-
 import CourseFooter from '../../components/course_footer/CourseFooter'; 
 import CourseNav from '../../components/course_nav/CourseNav';
 import { FaFreeCodeCamp } from 'react-icons/fa';
@@ -254,7 +252,7 @@ const CourseItem = ({ course_name }) => {
       <div
         className="course-home-courses-two-two course-name-box slide-up"
         onClick={handleClick}
-        style={{ cursor: 'pointer' }} >
+        style={{ cursor: 'pointer' }}>
         <div className="course-home-courses-one-one-in">
           { icon }
         </div>

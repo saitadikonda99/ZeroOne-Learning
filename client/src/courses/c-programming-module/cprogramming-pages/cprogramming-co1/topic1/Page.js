@@ -179,7 +179,7 @@ const Page = () => {
             </div>
             <div className="topic-footer">
                    <CourseFooter/>
-                  </div>
+             </div>
           </div>
   );
 };

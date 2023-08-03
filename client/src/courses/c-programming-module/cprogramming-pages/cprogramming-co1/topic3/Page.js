@@ -25,6 +25,7 @@ function Page() {
                    in detail
                 </p>
             </div>
+            
           </div>
         </div>
           <div className="topic-footer">
