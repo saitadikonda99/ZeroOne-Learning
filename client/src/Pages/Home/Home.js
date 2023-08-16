@@ -112,6 +112,7 @@ const CourseHome = () => {
                    you with the skills, knowledge, and experience needed 
                    to thrive in today's fast-paced and dynamic tech industry.
                 </p>
+                
                 </div>
             </div>
               <div className="courseHome-reviews-two">
@@ -132,7 +133,7 @@ const CourseHome = () => {
                       </div>
 
                       <div className="reviews-two-in-two common-review">
-                      <div className="review-two-two common-review-box">
+                       <div className="review-two-two common-review-box">
                           <div className="review-two-img common-image">
                             <img src={mohan_img} alt="mohan" />
                           </div>
@@ -211,6 +212,7 @@ const CourseItem = ({ course_name }) => {
       observer.observe(element);
     });
   }, []);
+  
 
   const YourComponent = () => {
     const navigate = useNavigate();
@@ -233,7 +235,7 @@ const CourseItem = ({ course_name }) => {
           navigate('/coming-soon')
           break;
       }
-      window.scrollTo(0, 0); // scroll to top of page
+      window.scrollTo(0, 0); 
     };
 
     let icon = null;

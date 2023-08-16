@@ -84,6 +84,8 @@ function CourseNav() {
               </div>
             </div>
 
+
+
           <div className={ (size > 900 )? "nav-links" : "nav-links-hide"}>
           <div className="nav-links-in">
           <Scroll
