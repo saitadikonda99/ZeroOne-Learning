@@ -48,7 +48,7 @@ const CourseFooter = () => {
                   </p>
                 </div>
               <div className="footer-in-socials">
-                <Link to='https://instagram.com/zeroone_codes' className='footer-in-socials-link'>
+                <Link to='https://instagram.com/zeroone_code' className='footer-in-socials-link'>
                   <AiOutlineInstagram className='instagram social-hover'/>
                   </Link>
                     <Link to='https://t.me/+HbEkpTHAa_w4NTM1' className='footer-in-socials-link'>
