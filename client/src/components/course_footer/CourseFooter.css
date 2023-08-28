@@ -24,8 +24,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    width: 50%;
+    align-items: center;
+    width: 30%;
     height: 10vw;
 }
 
@@ -69,6 +69,9 @@
     padding: 5px;
 }
 
+.footer-in-one-two p {
+    color: gray;
+}
 .footer-in-socials {
     font-size: 30px;
     display: flex;
@@ -124,6 +127,62 @@
 .social-hover:hover{
     color: rgb(29, 161, 242);
 }
+
+@media only screen and (max-width: 900px) {
+
+    .footer-container {
+        height: 100vw;
+        justify-content: normal;
+        align-items: normal;
+    }
+
+    .footer-in-one {
+        flex-direction: column;
+        font-size: 2vw;
+        align-items: normal;
+        justify-content: center;
+        height: 80vw;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer-in-one-one { 
+        width: 100%;
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-in-one-two { 
+        width: 100%;
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        font-size: 8px;
+    }
+
+    .footer-in-three {
+        flex-direction: column;
+        font-size: 10px;
+        gap: 15px;
+        height: 20vw;
+        width: 100%;
+    }
+
+    .telegram {
+        font-size: 25px;
+    }
+    
+    .github {
+        font-size: 25px;
+    }
+
+    .instagram {
+        font-size: 25px;
+    }
+}
+
 
 @media only screen and (max-width: 500px) {
 
