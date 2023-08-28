@@ -17,7 +17,7 @@ const Homeapp = () => {
                 <Routes>
                     <Route path='/' element={<Home/>}></Route>
                     <Route path='/c-programming/*' element={<CprogrammingApp/>}></Route>
-                    <Route path='/python/*' element={<PythonApp/>}></Route>
+                    {/* <Route path='/python/*' element={<PythonApp/>}></Route> */}
                 </Routes>
             </div>
         </div>

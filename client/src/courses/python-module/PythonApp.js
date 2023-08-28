@@ -8,7 +8,7 @@ const PythonApp = () => {
       <div className='CprogrammingAppComponent'>
         <div className="CprogrammingAppContainer">
           <Routes>
-            <Route path="/courses/python-module/PythonHome" component={PythonHome} />
+            <Route path="/" element={<PythonHome />} />
          </Routes>
       </div>
     </div>

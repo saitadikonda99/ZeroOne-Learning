@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FaTelegram } from 'react-icons/fa'
 import { BsGithub } from 'react-icons/bs'
-
+import FeedbackForm from '../../feedback/feedback'
 
 
 const CourseFooter = () => {
@@ -22,6 +22,7 @@ const CourseFooter = () => {
                     zeroone.learning.com
                    </Link>
                 </div>
+                {/* <FeedbackForm/> */}
              </div>
           </div>
           <div className="footer-in-two">

@@ -226,6 +226,7 @@ const CourseItem = ({ course_name }) => {
           navigate('/coming-soon');
           break;
         case 'python':
+          // navigate('courses/python');
           navigate('/coming-soon');
           break;
         case 'java':
