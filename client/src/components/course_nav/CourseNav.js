@@ -84,6 +84,9 @@ function CourseNav() {
                     </Scroll>
                       </li>
                       <li><Link to='https://t.me/+HbEkpTHAa_w4NTM1'>Contact</Link></li>
+                      <li><Link to='https://klzeroone.vercel.app/'>
+                          About Us
+                </Link></li>
                     </ul>
                     </div>
                  </div>
@@ -115,6 +118,9 @@ function CourseNav() {
                        <Link to='/'>Courses</Link>
                     </Scroll>
                   <Link to='https://t.me/+HbEkpTHAa_w4NTM1'>Contact</Link>
+                  <Link to='https://klzeroone.vercel.app/'>
+                          About Us
+                </Link>
                 </div>
               </div>
             <div className={(size > 900 )? "nav-button" : "nav-links-hide"}>

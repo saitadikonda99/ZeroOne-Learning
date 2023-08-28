@@ -81,6 +81,11 @@ function CNavbar() {
                     </Scroll>
                       </li>
                       <li><Link to='https://t.me/+HbEkpTHAa_w4NTM1'>Contact</Link></li>
+                      <li>
+                      <Link to='https://klzeroone.vercel.app/'>
+                          About Us
+                </Link>
+                      </li>
                     </ul>
 
                     <div className="c-nav-con-but">
@@ -112,6 +117,9 @@ function CNavbar() {
                  <Link to='/'>Courses</Link>
               </Scroll>
             <Link to='https://t.me/+HbEkpTHAa_w4NTM1 '>Contact</Link>
+            <Link to='https://klzeroone.vercel.app/'>
+                          About Us
+                </Link>
           </div>
         </div>
   </div>
