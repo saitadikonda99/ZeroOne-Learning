@@ -43,20 +43,35 @@ a {
 }
 
 .nav-logo {
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-
 }
 
-.nav-logo-head {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: rgb(21, 0, 128);
-    margin-top: auto;
+.logo-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
 }
 
+.logo-in:hover {
+    cursor: pointer;
+}
+
+.logo-in-image {
+    height: 4vw;
+}
+
+.logo-in-image:hover {
+    cursor: pointer;
+  }
+
+.nav-links {
+    width: 60%;
+}
 
 .nav-links-in {
     display: flex;
@@ -75,6 +90,10 @@ a {
 
 .nav-links-in a:hover {
     color: red;
+}
+
+.nav-button {
+    width: 15%;
 }
 
 .nav-button-in {

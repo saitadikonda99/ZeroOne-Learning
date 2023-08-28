@@ -7,7 +7,7 @@ import {HiMenu} from 'react-icons/hi'
 import {IoCloseSharp} from 'react-icons/io5'
 import {  Link } from 'react-router-dom';
 import './Cnavbar.css'
-
+import navLogo from '../../../assets/navLogo.png'
 
 function CNavbar() {
   const [isopen, setIsopen] = useState(false)
@@ -27,15 +27,14 @@ function CNavbar() {
     }
   }, [])
 
+
+
   return (
     <div  className= { (isopen === true) ? "nav-color" : "c-nav-container" }>
      <div className="nav-logo">
-      <div className="nav-logo-head">
-       <FiCode/>
-         </div>
-           <div className="nav-logo-body">
-            <h1>zeroOne</h1>
-        </div> 
+       <div className="logo-in">
+         <Link to="/"><img className='logo-in-image' src={navLogo}></img></Link>
+       </div>    
     </div>
 
 

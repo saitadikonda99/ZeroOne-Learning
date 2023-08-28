@@ -57,6 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     font-weight: 500;
     background-color: rgb(34, 40, 62);
 }

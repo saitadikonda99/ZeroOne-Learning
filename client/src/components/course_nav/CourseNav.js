@@ -7,6 +7,8 @@ import {IoCloseSharp} from 'react-icons/io5'
 import {  Link } from 'react-router-dom';
 import { Link as Scroll } from 'react-scroll';
 
+import navLogo from '../../assets/navLogo.png'
+
 function CourseNav() {
   const [isopen, setIsopen] = useState(false)
   const [size, setSize] = useState(window.innerWidth)
@@ -25,16 +27,20 @@ function CourseNav() {
     }
   }, [])
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' 
+    });
+  }
+
   
   return (
         <div className= { (isopen === true) ? "nav-color" : "course-nav-container" }>
           <div className="nav-logo">
-            <div className="nav-logo-head">
-             <FiCode/>
-               </div>
-                 <div className="nav-logo-body">
-                  <h1>zeroOne</h1>
-              </div>
+              <div className="logo-in">
+                <Link onClick={scrollToTop}><img className='logo-in-image' src={navLogo}></img></Link>
+              </div>             
           </div>
 
           {/* toggle button */}

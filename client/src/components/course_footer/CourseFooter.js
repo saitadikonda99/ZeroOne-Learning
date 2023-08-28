@@ -33,8 +33,8 @@ const CourseFooter = () => {
           </div>
 
         <div className="footer-in-links">
-                   <Link to='mailto:2200030805@kluniversity' className='gmail'>
-                    zeroone.learning.com
+                   <Link to='https://klzeroone.vercel.app/' className='gmail'>
+                   klzeroone.vercel.app
                    </Link>
                 </div>
                  
@@ -63,8 +63,10 @@ const CourseFooter = () => {
           <div className="footer-in-three">
           <p> © 2023 saitadikonda. All rights reserved.</p>
             <p>designed & developed by <span> 
-                <a href="https://github.com/saitadikonda99">Tadikonda sai manikanta</a>
-            </span> </p>
+                <a href="https://github.com/saitadikonda99">Tadikonda sai manikanta </a>
+            </span> 
+          </p>
+          <p> at ZeroOne Labs.</p>
         </div>
     </div>
   )
