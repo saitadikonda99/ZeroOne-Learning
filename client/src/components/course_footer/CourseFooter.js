@@ -54,7 +54,7 @@ const CourseFooter = () => {
                     <Link to='https://t.me/+HbEkpTHAa_w4NTM1' className='footer-in-socials-link'>
                       <FaTelegram className='telegram social-hover'/>
                         </Link>
-                        <Link to='https://github.com/saitadikonda99' className='footer-in-socials-link'>
+                        <Link to='https://twitter.com/zeroone_codes' className='footer-in-socials-link'>
                           <BsTwitter className='github social-hover'/>
                   </Link>
                 </div>

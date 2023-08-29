@@ -7,7 +7,7 @@ import {HiMenu} from 'react-icons/hi'
 import {IoCloseSharp} from 'react-icons/io5'
 import {  Link } from 'react-router-dom';
 import './Cnavbar.css'
-import navLogo from '../../../assets/navLogo2.png'
+import navLogo from '../../../assets/navLogo.png'
 
 function CNavbar() {
   const [isopen, setIsopen] = useState(false)
