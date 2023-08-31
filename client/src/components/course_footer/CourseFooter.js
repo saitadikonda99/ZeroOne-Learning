@@ -19,7 +19,6 @@ const CourseFooter = () => {
       });
     }
 
-    
   return (
     <div className="footer-container">
        <div className="footer-in-one">
@@ -63,7 +62,6 @@ const CourseFooter = () => {
           <div className="footer-in-three">
           <p> © 2023 saitadikonda. All rights reserved.</p>
             <p>designed & developed by <span> 
-                <a href="https://github.com/saitadikonda99">Tadikonda sai manikanta </a>
             </span> 
           </p>
           <p> at ZeroOne Labs.</p>
