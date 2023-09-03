@@ -61,7 +61,8 @@ const CourseFooter = () => {
           </div>
           <div className="footer-in-three">
           <p> © 2023 saitadikonda. All rights reserved.</p>
-            <p>designed & developed by <span> 
+            <p>designed & developed by<span> 
+            <a href="https://github.com/saitadikonda99"> Tadikonda Sai Manikanta</a>
             </span> 
           </p>
           <p> at ZeroOne Labs.</p>
