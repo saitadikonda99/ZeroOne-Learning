@@ -21,6 +21,8 @@ a {
     align-items: center;
     padding: 10px;
     background-color: transparent;
+    border-bottom: 2px solid black;
+    font-weight: 600;
 }
 
 .nav-color {

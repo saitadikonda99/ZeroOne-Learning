@@ -10,7 +10,7 @@ import './CHomePage.css';
 import cimage from '../../../assets/c.png';
 
 // Import other components and modules here
-import Cnavbar from '../C-programming-nav/Cnavbar';
+import CourseNav from '../../../components/course_nav/CourseNav'
 import CourseFooter from '../../../components/course_footer/CourseFooter'
  
 
@@ -21,8 +21,11 @@ const CHomePage = () => {
     <div className='CHomePageComponent'>
        <div className="c-main-container">
           <div className="c-main-nav-ks">
-            <Cnavbar/>
+            <CourseNav/>
               </div> 
+
+
+            <div className="c-prog-top">
                <div className="c-prog-details">
                 <div className="c-prog-img">
                   <img src={cimage} alt='c-prog' />
@@ -51,6 +54,7 @@ const CHomePage = () => {
                 </div>
                 </div>
             </div>
+          </div>
 
 
             <div className="c-prog-topics">

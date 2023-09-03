@@ -6,64 +6,64 @@
 
 .CourseHomeComponent {
     width: 100%;
-    height: fit-content;
-    background-color: rgb(229, 249, 255);
+    height: fit-content
 }
+
+/* ----------------------------Hero-------------------------------- */
 
 .courseHome-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
     height: 100vh;
-    background-image: url(../../assets/zero-hero.png);
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: 100vh;
+    padding-top: 5rem;
 }
 
-.courseHome-head-one {
+.courseHome-container-in {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 10%;
     align-items: center;
-    width: 60%;
-    height: 50vw;
-    font-size: 2vw;
+    gap: 10px;
+    text-align: center;
 }
 
-
-.courseHome-head-one h1 {
-    background: linear-gradient(to right, black, blue);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.courseHome-head-one p {
-    color: rgba(250, 14, 14, 0.996);
-    font-weight: 400;
-}
-
-.courseHome-head-one-button {
-    padding-top: 10%;
-}
-
-
-.courseHome-head-one-button button {
-    padding: 20px;
-    border: 2px solid rgba(27, 43, 218, 0.996);
-    border-radius: 10px;
-    background-color: rgba(39, 20, 239, 0.996);
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 1vw;
+.courseHome-head {
+    font-size: 3.5rem;
     font-weight: 600;
 }
 
-.courseHome-head-one-button button:hover {
-    background-color: rgb(242, 251, 254);
-    border: 2px solid blue;
+.courseHome-container-in-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseHome-container-in-two-in {
+    width: 80%;
+}
+
+.courseHome-container-in-two p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.courseHome-container-in-two span {
     color: blue;
+}
+
+.courseHome-container-in-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.courseHome-container-in-three button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .courseHome-head-two {
@@ -94,8 +94,6 @@
 .courseHome-boxes-two {
     width: 100%;
     height: 5vw;
-    border: .1px solid rgb(224, 250, 252);
-    background-color: white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -104,27 +102,32 @@
     margin-bottom: 20%;
 }
 
-.course-home-courses {
-    height: 50vw;
-    width: 100%;
+.courseHome-courses-container {
     display: flex;
-    background-color: rgb(245, 251, 251);
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.course-home-courses {
+    height: 40vw;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 20px 40px 20px;
     gap: 5vw;
     font-size: 1.5vw;
-    padding: 20px;
 }
 
 .course-home-courses a {
     color: black;
 }
 
-
 .course-home-courses-in {
-    height: 30vw;
+    height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -134,8 +137,8 @@
 
 
 .course-name-box {
-    height: 20vw;
-    width: 20%;
+    height: 18vw;
+    width: 25%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -145,29 +148,8 @@
     gap: 2vw;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
-    animation: slideUp 0.3s ease-in-out forwards;
 }
 
-@keyframes slideUp {
-    from {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-.slide-up {
-    animation: slideUp 0.3s ease-in-out forwards;
-    animation-play-state: paused;
-  }
-  
-.animate {
-    animation-play-state: running;
-}
-  
 
 .course-name-box:hover {
     background-color: blue;
@@ -200,6 +182,8 @@
     margin: 0 auto;
     padding: 10vw 0;
     gap: 100px;
+    border: 2px solid black;
+    border-radius: 40px;
 }
 
 .about-container-in {
@@ -312,7 +296,6 @@
 .courseHome-reviews {
     width: 100%;
     height: 50vw;
-    background-color: rgb(245, 251, 251);
     display: flex;
 }
 

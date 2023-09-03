@@ -25,29 +25,34 @@ const CourseHome = () => {
        <div className="courseHome-nav">
           <CourseNav/>
             </div>
+
+
+{/* ------------------------------- Hero -------------------------------------------- */}
+
+
               <div className="courseHome-container">
-                  <div className="courseHome-head-one">
-                      <p> Start now for free</p>
-                        <h1> Best Academic online learning</h1>
-                          <h1>platform</h1>
-                            <div className="courseHome-head-one-button">
-                              <Scroll
-                                  activeClass="active"
-                                  to="course-home-courses"
-                                  spy ={true}
-                                  smooth={true}
-                                  offset={-70}
-                                  duration={500}
-                                  >
-                           <button>Explore courses</button>
-                        </Scroll>
-                     </div>
-                  </div>
-                <div className="courseHome-head-two">
-             <div className="courseHome-boxes-one">  <h2> <FaFreeCodeCamp/> Free Courses</h2> </div>
-           <div className="courseHome-boxes-two"> <h1> <GrUserExpert/> Expert Instructor </h1> </div>
-         </div>
-      </div>   
+                 <div className="courseHome-container-in">
+                    <div className="courseHome-container-in-one">
+                      <div className="courseHome-head">
+                        <h1>Learn. Practice. Develop</h1>
+                         </div>
+                      </div>
+                        <div className="courseHome-container-in-two">
+                          <div className="courseHome-container-in-two-in">
+                            <p>This is a community which provides <span> free hands-on training </span> in various fields of computer science and have an inclusive community focusing on a <span> learn by doing </span> approach.</p>
+                            </div>
+                          </div>
+                          <div className="courseHome-container-in-three">
+                            <button>
+                                Explore Courses
+                            </button>
+                          </div>
+                       </div> 
+                   </div>   
+
+{/* ------------------------------- courses -------------------------------------------- */}
+
+     <div className="courseHome-courses-container">
         <div className="course-home-courses">
            <h1>Our Popular Courses</h1>
             <div className="course-home-courses-in">
@@ -58,7 +63,12 @@ const CourseHome = () => {
             <CourseItem course_name = "java"/>
                
             </div>
-             </div>
+         </div>
+      </div>
+
+
+{/* ------------------------------- why zeroOne -------------------------------------------- */}  
+            
               <div className="about-container">
                 <div className="about-container-in">
                   <h1>The Collab Team with High Technical Skills</h1>
@@ -99,6 +109,8 @@ const CourseHome = () => {
                 </div>
               </div>
            </div>
+
+{/* ---------------------------------- reviews -------------------------------------------- */}
           <div className="courseHome-reviews">
            <div className="courseHome-reviews-one">
             <div className="courseHome-reviews-one-in">
