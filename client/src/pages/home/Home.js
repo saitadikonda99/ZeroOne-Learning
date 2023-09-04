@@ -2,12 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Link as Scroll } from 'react-scroll';
+import CountUp from 'react-countup';
 import './Home.css';
 
 import CourseFooter from '../../components/course_footer/CourseFooter'; 
 import CourseNav from '../../components/course_nav/CourseNav';
 import { FaFreeCodeCamp } from 'react-icons/fa';
 import { GrUserExpert } from 'react-icons/gr';
+import { RiTeamLine } from 'react-icons/ri';
 import { BsFileEarmarkCode } from 'react-icons/bs'
 import { FaJava } from 'react-icons/fa';
 import { BsGit } from 'react-icons/bs';
@@ -71,43 +73,48 @@ const CourseHome = () => {
             
               <div className="about-container">
                 <div className="about-container-in">
-                  <h1>The Collab Team with High Technical Skills</h1>
-                    <h2>Help You Learn a New Profession</h2>
-                </div>
-                    <div className="CourseHome-Body-Content-two">
-                        <div className="courseHome-element-one-content">
-                           <div className="courseHome-element-one-content-in">
-                             <span className='number-css'> 01 </span>
-                                </div>
-                              <div className="courseHome-element-one-content-in-one">
-                            <h1>knowledge</h1>
-                         </div>
-                      </div>
-                    <div className="courseHome-element-two-content">
-                      <div className="courseHome-element-two-content-in">
-                        <span className='number-css'> 02 </span>
-                          </div>
-                            <div className="courseHome-element-two-content-in-one">
-                        <h1>Practical Skills</h1>
-                      </div>
-                   </div>
-                  <div className="courseHome-element-three-content">
-                     <div className="courseHome-element-three-content-in">
-                       <span className='number-css'> 03 </span>
-                          </div>
-                             <div className="courseHome-element-three-content-in-one">
-                                <h1>Work with a Mentor</h1>
-                              </div>
-                            </div>
-                          <div className="courseHome-element-four-content">
-                        <div className="courseHome-element-four-content-in">
-                      <span className='number-css'> 04 </span>
+                    <div className="about-in-one">
+                      <h1>Some numbers that matter</h1>
                     </div>
-                      <div className="courseHome-element-four-content-in-one">
-                        <h1>Final Test or Project</h1>
+
+                    <div className="about-in-two">
+                      <div className="about-box ab-on-bx">
+                        <div className="about-box-one">
+                          <RiTeamLine/>
+                        </div>
+                      <div className="about-box-two">
+                          <div className="about-box-two-in">
+                             <CountUp end={999} duration={2} /> <span>+</span>
+                        </div>
+                      <p> Community members </p>
+                    </div>
                   </div>
-                </div>
-              </div>
+                  <div className="about-box ab-tw-bx">
+                        <div className="about-box-one">
+                          <RiTeamLine/>
+                        </div>
+                      <div className="about-box-two">
+                          <div className="about-box-two-in">
+                             <CountUp end={999} duration={2} /> <span>+</span>
+                        </div>
+                      <p> Community members </p>
+                    </div>
+                  </div>
+                  <div className="about-box ab-th-bx">
+                        <div className="about-box-one">
+                          <RiTeamLine/>
+                        </div>
+                      <div className="about-box-two">
+                          <div className="about-box-two-in">
+                             <CountUp end={999} duration={2} /> <span>+</span>
+                        </div>
+                      <p> Community members </p>
+                    </div>
+                  </div>
+
+                    
+                    </div>
+               </div>
            </div>
 
 {/* ---------------------------------- reviews -------------------------------------------- */}
