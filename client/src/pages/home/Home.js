@@ -56,7 +56,7 @@ const CourseHome = () => {
 
      <div className="courseHome-courses-container">
         <div className="course-home-courses">
-           <h1>Our Popular Courses</h1>
+           <h1>Our Popular <span>Courses</span> </h1>
             <div className="course-home-courses-in">
                
             <CourseItem course_name = "C" />
