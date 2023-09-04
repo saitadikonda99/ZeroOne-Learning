@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link as Scroll } from 'react-scroll';
 import CountUp from 'react-countup';
 import './Home.css';
@@ -22,6 +22,16 @@ import harini_img from '../../assets/harini.png'
 
 
 const CourseHome = () => {
+
+  const [activity, setActivity] = useState(1)
+
+
+  const handleActivity = (Number) => {
+    setActivity(Number)
+  }
+
+
+
   return (
     <div className='CourseHomeComponent'>
        <div className="courseHome-nav">
@@ -118,11 +128,12 @@ const CourseHome = () => {
            </div>
 
 {/* ---------------------------------- reviews -------------------------------------------- */}
+
+      <div className="courseHome-reviews-component">
           <div className="courseHome-reviews">
            <div className="courseHome-reviews-one">
             <div className="courseHome-reviews-one-in">
-                <h1>Learning to code is like <br/>
-                    getting from zero to one.</h1>
+                <h1>see what the community is saying </h1>
                 <h1>ZeroOne helps developers get <br/>
                     from <span>zero</span> to <span>one.</span> </h1>
                 <p>At ZeroOne, we are on a mission to revolutionize 
@@ -198,6 +209,50 @@ const CourseHome = () => {
                   </div>
               </div>
           </div>
+        </div>
+
+
+{/* ------------------------------FAQ's---------------------------------- */}
+
+          <div className="club-activity-component">
+              <div className="clubs-Activities">  
+                <div className="clubs-Activities-in">
+                  <div className="clubs-Activities-box-on">
+                   <div className="club-activity-head">
+                    <h1>Activities</h1>
+                  </div>
+                  <div className="clubs-Activities-in-one">
+                          <div className = { activity === 1 ? 'activity-content-one' : 'activity-hide' } id='one-color'></div>
+                          <div className = { activity === 2 ? 'activity-content-one' : 'activity-hide' } id='two-color'></div>
+                          <div className = { activity === 3 ? 'activity-content-one' : 'activity-hide' } id='three-color'></div>
+                          <div className = { activity === 4 ? 'activity-content-one' : 'activity-hide' } id='four-color'></div>
+                     </div>
+                  </div>
+                      <div className="clubs-Activities-in-two">
+                          <h1>FAQ's</h1> 
+                         <div id = { activity === 1 ? 'activity-content-hover' : '' }
+                          className="Activity-box-one" onClick={() => handleActivity(1)}>Activity-1</div>
+                         <div id = { activity === 2 ? 'activity-content-hover' : '' }
+                         className="Activity-box-one" onClick={() => handleActivity(2)}>Activity-2</div>
+                         <div id = { activity === 3 ? 'activity-content-hover' : '' }
+                         className="Activity-box-one" onClick={() => handleActivity(3)}>Activity-3</div>
+                         <div id = { activity === 4 ? 'activity-content-hover' : '' }
+                         className="Activity-box-one" onClick={() => handleActivity(4)}>Activity-4</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
         <div className="course-footer-container">
           <CourseFooter/>
            </div>
