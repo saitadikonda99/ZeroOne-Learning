@@ -55,19 +55,18 @@
 
 .courseHome-container-in-three {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10%;
+    font-size: 2rem;
+    gap: 20px;
 }
 
-.courseHome-container-in-three button {
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: white;
-    font-weight: 600;
-    cursor: pointer;
+#icons {
+    color: black;
 }
+
 
 .courseHome-head-two {
     display: flex;
@@ -459,6 +458,10 @@
     border-radius: 20px;
     height: 25vw;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
 }
 
 .clubs-Activities-in-two {
@@ -490,6 +493,10 @@
 #activity-content-hover {
     background-color: rgb(18, 18, 18);
     color: white;
+}
+
+#one-color {
+    width: 80%;
 }
 
 

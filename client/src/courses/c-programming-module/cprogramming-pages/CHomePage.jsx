@@ -24,7 +24,7 @@ const CHomePage = () => {
             <CourseNav/>
               </div> 
 
-
+          <div className="c-prog-top-container"> 
             <div className="c-prog-top">
                <div className="c-prog-details">
                 <div className="c-prog-img">
@@ -55,6 +55,8 @@ const CHomePage = () => {
                 </div>
             </div>
           </div>
+        </div>
+
 
 
             <div className="c-prog-topics">

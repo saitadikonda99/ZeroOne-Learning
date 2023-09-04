@@ -14,6 +14,7 @@ import { BsFileEarmarkCode } from 'react-icons/bs'
 import { FaJava } from 'react-icons/fa';
 import { BsGit } from 'react-icons/bs';
 import { FaPython } from 'react-icons/fa';
+import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md'
 
 
 import mohan_img from '../../assets/mohan.png'
@@ -55,9 +56,17 @@ const CourseHome = () => {
                             </div>
                           </div>
                           <div className="courseHome-container-in-three">
-                            <button>
                                 Explore Courses
-                            </button>
+                                <Scroll
+                                    activeClass="active"
+                                    to="course-home-courses"
+                                    spy ={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                > 
+                                <MdOutlineKeyboardDoubleArrowDown id="icons" />
+                               </Scroll>
                           </div>
                        </div> 
                    </div>   
@@ -222,22 +231,22 @@ const CourseHome = () => {
                     <h1>Activities</h1>
                   </div>
                   <div className="clubs-Activities-in-one">
-                          <div className = { activity === 1 ? 'activity-content-one' : 'activity-hide' } id='one-color'></div>
-                          <div className = { activity === 2 ? 'activity-content-one' : 'activity-hide' } id='two-color'></div>
-                          <div className = { activity === 3 ? 'activity-content-one' : 'activity-hide' } id='three-color'></div>
-                          <div className = { activity === 4 ? 'activity-content-one' : 'activity-hide' } id='four-color'></div>
+                          <div className = { activity === 1 ? 'activity-content-one' : 'activity-hide' } id='one-color'>ZeroOne is a community where you can learn skills, network with smart people.</div>
+                          <div className = { activity === 2 ? 'activity-content-one' : 'activity-hide' } id='two-color'>Click on join now in navigation</div>
+                          <div className = { activity === 3 ? 'activity-content-one' : 'activity-hide' } id='three-color'>NO.</div>
+                          <div className = { activity === 4 ? 'activity-content-one' : 'activity-hide' } id='four-color'>Are there any prerequisites?</div>
                      </div>
                   </div>
                       <div className="clubs-Activities-in-two">
                           <h1>FAQ's</h1> 
                          <div id = { activity === 1 ? 'activity-content-hover' : '' }
-                          className="Activity-box-one" onClick={() => handleActivity(1)}>Activity-1</div>
+                          className="Activity-box-one" onClick={() => handleActivity(1)}>What exactly ZeroOne is?</div>
                          <div id = { activity === 2 ? 'activity-content-hover' : '' }
-                         className="Activity-box-one" onClick={() => handleActivity(2)}>Activity-2</div>
+                         className="Activity-box-one" onClick={() => handleActivity(2)}>How to join in ZeroOne?</div>
                          <div id = { activity === 3 ? 'activity-content-hover' : '' }
-                         className="Activity-box-one" onClick={() => handleActivity(3)}>Activity-3</div>
+                         className="Activity-box-one" onClick={() => handleActivity(3)}>What I can learn from ZeroOne?</div>
                          <div id = { activity === 4 ? 'activity-content-hover' : '' }
-                         className="Activity-box-one" onClick={() => handleActivity(4)}>Activity-4</div>
+                         className="Activity-box-one" onClick={() => handleActivity(4)}>WebDevelopment, DSA, Community work and many more</div>
                     </div>
                 </div>
               </div>

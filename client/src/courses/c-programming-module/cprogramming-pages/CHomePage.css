@@ -11,12 +11,24 @@
     gap: 5vw;
 }
 
+.c-prog-top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+}
+
 .c-prog-top {
-    border-bottom: 2px solid black ;
+    border: .1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: fit-content;
+    background-color: rgb(234, 224, 254);
 }
 
 .c-prog-details {
-    height: fit-content;
+    height: max-content;
     width: 100%;
     display: flex;
     align-items: center;
