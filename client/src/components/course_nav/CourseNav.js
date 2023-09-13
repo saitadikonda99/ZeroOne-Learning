@@ -67,7 +67,6 @@ function CourseNav() {
                        Home 
                     </Scroll>
 
-
                       </li>
                       <li>
 
